@@ -64,9 +64,6 @@ public class RollScript : MonoBehaviour
         {
             float x = time / yeetTime;
             translationOffset = (-x * x + x) * 4 * yeetDistance * Vector3.up;
-            // translationOffset = time < yeetTime / 2
-            //     ? Vector3.up * yeetDistance * time * yeetTime * 2
-            //     : 2 * Vector3.up * yeetDistance - Vector3.up * yeetDistance * time * yeetTime * 2;
 
             transform.position = translationOrigin + translationOffset;
 
