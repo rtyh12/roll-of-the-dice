@@ -40,7 +40,7 @@ public class PauseMenuScript : MonoBehaviour
 
     public void Settings()
     {
-        SceneManager.LoadScene("SettingsMenu");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
     }
 
     public void Quit()

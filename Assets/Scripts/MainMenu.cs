@@ -7,12 +7,12 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayButton()
     {
-        SceneManager.LoadScene("Sphere");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 
     public void SettingsButton()
     {
-        SceneManager.LoadScene("SettingsMenu");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void QuitButton()
