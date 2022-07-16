@@ -5,15 +5,30 @@
             {
                 "text": "Just Die.",
                 "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "ok die"
+                    },
                     "happy": {
+                        "love": 2,
+                        "goto": ""
+                    },
+                    "surprised": {
+                        "love": 3,
+                        "goto": ""
+                    },
+                    "uwu": {
                         "love": 4,
                         "goto": ""
                     },
                     "angry": {
-                        "love": -8,
+                        "love": 5,
                         "goto": ""
                     },
-                    "etc": "etc"
+                    "sad": {
+                        "love": 6,
+                        "goto": ""
+                    }
                 }
             },
             {
@@ -66,15 +81,30 @@
             {
                 "text": "Wow, you seem like a really well-rounded individual.",
                 "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "ok die"
+                    },
                     "happy": {
+                        "love": 2,
+                        "goto": ""
+                    },
+                    "surprised": {
+                        "love": 3,
+                        "goto": ""
+                    },
+                    "uwu": {
                         "love": 4,
                         "goto": ""
                     },
                     "angry": {
-                        "love": -8,
+                        "love": 5,
                         "goto": ""
                     },
-                    "etc": "etc"
+                    "sad": {
+                        "love": 6,
+                        "goto": ""
+                    }
                 }
             },
             {

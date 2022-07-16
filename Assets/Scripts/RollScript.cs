@@ -28,6 +28,8 @@ public class RollScript : MonoBehaviour
 
     public State state;
 
+    public JsonTestScript jsonTestScript;
+
     public List<Vector3> eulerFromFace = new List<Vector3> {
         /* 0 */ new Vector3(0, 0, 0),       // ignore
         /* 1 */ new Vector3(0, -90, 0),
@@ -38,10 +40,19 @@ public class RollScript : MonoBehaviour
         /* 6 */ new Vector3(0, -270, 0)
     };
 
+
     Vector3 getRotationAtTime(float t)
     {
         t *= rotationTimeScale;
         return new Vector3(0, t, t);
+    }
+
+    public void GenerateNewFace()
+    {
+        if (forceFace)
+            currentFace = forceFaceNumber;
+        else
+            currentFace = Random.Range(1, 7);
     }
 
     public void SwitchToRotating()
@@ -52,10 +63,6 @@ public class RollScript : MonoBehaviour
 
     public void SwitchToYeet()
     {
-        if (forceFace)
-            currentFace = forceFaceNumber;
-        else
-            currentFace = Random.Range(1, 7);
         transform.eulerAngles = eulerFromFace[currentFace];
         state = State.yeet;
         time = 0;
@@ -63,6 +70,7 @@ public class RollScript : MonoBehaviour
 
     public void SwitchToStopped()
     {
+        jsonTestScript.MessageDiceStopped();
         state = State.stopped;
         time = 0;
     }
@@ -96,7 +104,7 @@ public class RollScript : MonoBehaviour
     void Start()
     {
         time = 0;
-        state = State.rotating;
+        // state = State.rotating;
         translationOrigin = transform.position;
     }
 }
