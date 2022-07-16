@@ -11,7 +11,10 @@ public class JsonTestScript : MonoBehaviour
     void Start()
     {
         var test = JSON.Parse(json.ToString());
-        Debug.Log(test["test"]);
-        Debug.Log(json.ToString());
+
+        var answers = test["are you dice"]["answers"];
+        for (int i = 0; i < answers.Count; i++) {
+            Debug.Log(answers[i]["text"]);
+        };
     }
 }
