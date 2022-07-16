@@ -1,5 +1,5 @@
 {
-    "are you dice": {
+    "1 are you dice": {
         "question": "Hey, are you Dice?",
         "answers": [
             {
@@ -7,390 +7,720 @@
                 "emotions": {
                     "love": {
                         "love": 1,
-                        "goto": "ok die"
+                        "goto": "2 ok die"
                     },
                     "happy": {
-                        "love": 2,
-                        "goto": ""
+                        "love": 3,
+                        "goto": "2 ok die"
                     },
                     "surprised": {
-                        "love": 3,
-                        "goto": ""
+                        "love": -1,
+                        "goto": "2 ok die"
                     },
                     "uwu": {
-                        "love": 4,
-                        "goto": ""
+                        "love": 1,
+                        "goto": "2 ok die"
                     },
                     "angry": {
-                        "love": 5,
-                        "goto": ""
+                        "love": -3,
+                        "goto": "2 ok die"
                     },
                     "sad": {
-                        "love": 6,
-                        "goto": ""
+                        "love": -1,
+                        "goto": "2 ok die"
                     }
                 }
             },
             {
                 "text": "Actually that's a common misconception. My name is “Die”.",
                 "emotions": {
+                    "love": {
+                        "love": 3,
+                        "goto": "2 ok die"
+                    },
                     "happy": {
-                        "love": 4,
-                        "goto": ""
+                        "love": 5,
+                        "goto": "2 ok die"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "2 ok die"
+                    },
+                    "uwu": {
+                        "love": 3,
+                        "goto": "2 ok die"
                     },
                     "angry": {
-                        "love": -8,
-                        "goto": ""
+                        "love": -1,
+                        "goto": "2 ok die"
                     },
-                    "etc": "etc"
+                    "sad": {
+                        "love": -1,
+                        "goto": "2 ok die"
+                    }
                 }
             },
             {
                 "text": "Yea but you can call me Die.",
                 "emotions": {
+                    "love": {
+                        "love": 3,
+                        "goto": "2 ok die"
+                    },
                     "happy": {
-                        "love": 4,
-                        "goto": ""
+                        "love": 3,
+                        "goto": "2 ok die"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "2 ok die"
+                    },
+                    "uwu": {
+                        "love": 5,
+                        "goto": "2 ok die"
                     },
                     "angry": {
-                        "love": -8,
-                        "goto": ""
+                        "love": -1,
+                        "goto": "2 ok die"
                     },
-                    "etc": "etc"
+                    "sad": {
+                        "love": 1,
+                        "goto": "2 ok die"
+                    }
                 }
             },
             {
                 "text": "Are you balls????",
                 "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "2 ok die"
+                    },
                     "happy": {
-                        "love": 4,
-                        "goto": ""
+                        "love": 1,
+                        "goto": "2 ok die"
+                    },
+                    "surprised": {
+                        "love": -1,
+                        "goto": "2 ok die"
+                    },
+                    "uwu": {
+                        "love": 1,
+                        "goto": "2 ok die"
                     },
                     "angry": {
-                        "love": -8,
-                        "goto": ""
+                        "love": -3,
+                        "goto": "2 ok die"
                     },
-                    "etc": "etc"
+                    "sad": {
+                        "love": -1,
+                        "goto": "2 ok die"
+                    }
                 }
             }
         ]
     },
-    "ok die": {
+    "2 ok die": {
         "question": "Ok Die, I'm Sphere. Since I feel like I am a complete person already, I don't necessarily “need” a relationship to be honest. But I guess it would be nice to be able to share my life with someone and be able to learn and grow together. What are you looking for here?",
         "answers": [
             {
                 "text": "Wow, you seem like a really well-rounded individual.",
                 "emotions": {
                     "love": {
-                        "love": 1,
-                        "goto": "ok die"
+                        "love": 5,
+                        "goto": "3 getting to know you"
                     },
                     "happy": {
-                        "love": 2,
-                        "goto": ""
+                        "love": 3,
+                        "goto": "3 getting to know you"
                     },
                     "surprised": {
-                        "love": 3,
-                        "goto": ""
+                        "love": 1,
+                        "goto": "3 getting to know you"
                     },
                     "uwu": {
-                        "love": 4,
-                        "goto": ""
+                        "love": 3,
+                        "goto": "3 getting to know you"
                     },
                     "angry": {
-                        "love": 5,
-                        "goto": ""
+                        "love": -3,
+                        "goto": "3 getting to know you"
                     },
                     "sad": {
-                        "love": 6,
-                        "goto": ""
+                        "love": -1,
+                        "goto": "3 getting to know you"
                     }
                 }
             },
             {
                 "text": "I'm looking for a partner to complete me.",
                 "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "3 getting to know you"
+                    },
                     "happy": {
-                        "love": 4,
-                        "goto": ""
+                        "love": -1,
+                        "goto": "3 getting to know you"
+                    },
+                    "surprised": {
+                        "love": -1,
+                        "goto": "3 getting to know you"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "3 getting to know you"
                     },
                     "angry": {
-                        "love": -8,
-                        "goto": ""
+                        "love": -1,
+                        "goto": "3 getting to know you"
                     },
-                    "etc": "etc"
+                    "sad": {
+                        "love": -3,
+                        "goto": "3 getting to know you"
+                    }
                 }
             },
             {
                 "text": "Whatever you want, I'll roll with it.",
                 "emotions": {
+                    "love": {
+                        "love": -1,
+                        "goto": "3 getting to know you"
+                    },
                     "happy": {
-                        "love": 4,
-                        "goto": ""
+                        "love": 5,
+                        "goto": "3 getting to know you"
+                    },
+                    "surprised": {
+                        "love": 3,
+                        "goto": "3 getting to know you"
+                    },
+                    "uwu": {
+                        "love": 1,
+                        "goto": "3 getting to know you"
                     },
                     "angry": {
-                        "love": -8,
-                        "goto": ""
+                        "love": -1,
+                        "goto": "3 getting to know you"
                     },
-                    "etc": "etc"
+                    "sad": {
+                        "love": -1,
+                        "goto": "3 getting to know you"
+                    }
                 }
             },
             {
                 "text": "I'm hoping to get lucky ;)",
                 "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "3 getting to know you"
+                    },
                     "happy": {
-                        "love": 4,
-                        "goto": ""
+                        "love": 1,
+                        "goto": "3 getting to know you"
+                    },
+                    "surprised": {
+                        "love": -1,
+                        "goto": "3 getting to know you"
+                    },
+                    "uwu": {
+                        "love": 3,
+                        "goto": "3 getting to know you"
                     },
                     "angry": {
-                        "love": -8,
-                        "goto": ""
+                        "love": -3,
+                        "goto": "3 getting to know you"
                     },
-                    "etc": "etc"
+                    "sad": {
+                        "love": 3,
+                        "goto": "3 getting to know you"
+                    }
                 }
             }
         ]
     },
-    "getting to know you": {
+    "3 getting to know you": {
         "question": "Let's just start by getting to know each other a little. How would you describe yourself?",
         "answers": [
             {
-                "text": "Happy, Angry, Sad, Scared, Surprised, In love.",
+                "text": "Happy, Angry, Sad,  Surprised, UwU :3,In love.",
                 "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "4 Oh ok"
+                    },
                     "happy": {
-                        "love": 4,
-                        "goto": ""
+                        "love": 3,
+                        "goto": "4 Oh ok"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "4 Oh ok"
+                    },
+                    "uwu": {
+                        "love": 5,
+                        "goto": "4 Oh ok"
                     },
                     "angry": {
-                        "love": -8,
-                        "goto": ""
+                        "love": -3,
+                        "goto": "4 Oh ok"
                     },
-                    "etc": "etc"
+                    "sad": {
+                        "love": -1,
+                        "goto": "4 Oh ok"
+                    }
                 }
             },
             {
                 "text": "I'm a Die.",
                 "emotions": {
+                    "love": {
+                        "love": -1,
+                        "goto": "4 Oh ok"
+                    },
                     "happy": {
-                        "love": 4,
-                        "goto": ""
+                        "love": 5,
+                        "goto": "4 Oh ok"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "4 Oh ok"
+                    },
+                    "uwu": {
+                        "love": 3,
+                        "goto": "4 Oh ok"
                     },
                     "angry": {
-                        "love": -8,
-                        "goto": ""
+                        "love": -3,
+                        "goto": "4 Oh ok"
                     },
-                    "etc": "etc"
+                    "sad": {
+                        "love": 1,
+                        "goto": "4 Oh ok"
+                    }
                 }
             },
             {
                 "text": "I'm so randommm lol kek xDDD",
                 "emotions": {
+                    "love": {
+                        "love": -1,
+                        "goto": "4 Oh ok"
+                    },
                     "happy": {
-                        "love": 4,
-                        "goto": ""
+                        "love": 1,
+                        "goto": "4 Oh ok"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "4 Oh ok"
+                    },
+                    "uwu": {
+                        "love": 3,
+                        "goto": "4 Oh ok"
                     },
                     "angry": {
-                        "love": -8,
-                        "goto": ""
+                        "love": 1,
+                        "goto": "4 Oh ok"
                     },
-                    "etc": "etc"
+                    "sad": {
+                        "love": -3,
+                        "goto": "4 Oh ok"
+                    }
                 }
             },
             {
                 "text": "I like to live life on the edge",
                 "emotions": {
+                    "love": {
+                        "love": -1,
+                        "goto": "4 Oh ok"
+                    },
                     "happy": {
-                        "love": 4,
-                        "goto": ""
+                        "love": -1,
+                        "goto": "4 Oh ok"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "4 Oh ok"
+                    },
+                    "uwu": {
+                        "love": 3,
+                        "goto": "4 Oh ok"
                     },
                     "angry": {
-                        "love": -8,
-                        "goto": ""
+                        "love": -1,
+                        "goto": "4 Oh ok"
                     },
-                    "etc": "etc"
+                    "sad": {
+                        "love": 1,
+                        "goto": "4 Oh ok"
+                    }
                 }
             }
         ]
     },
-    "Oh ok": {
+    "4 Oh ok": {
         "question": "Oh ok… Maybe we could try something less formal. If you were trapped on a desert island, what would you want to bring?",
         "answers": [
             {
                 "text": "You.",
                 "emotions": {
+                    "love": {
+                        "love": -3,
+                        "goto": "5 learn about me"
+                    },
                     "happy": {
-                        "love": 4,
-                        "goto": ""
+                        "love": 3,
+                        "goto": "5 learn about me"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "5 learn about me"
+                    },
+                    "uwu": {
+                        "love": 3,
+                        "goto": "5 learn about me"
                     },
                     "angry": {
-                        "love": -8,
-                        "goto": ""
+                        "love": -3,
+                        "goto": "5 learn about me"
                     },
-                    "etc": "etc"
+                    "sad": {
+                        "love": -1,
+                        "goto": "5 learn about me"
+                    }
                 }
             },
             {
                 "text": "Some books that I've always wanted to read.",
                 "emotions": {
+                    "love": {
+                        "love": 3,
+                        "goto": "5 learn about me"
+                    },
                     "happy": {
-                        "love": 4,
-                        "goto": ""
+                        "love": 5,
+                        "goto": "5 learn about me"
+                    },
+                    "surprised": {
+                        "love": 3,
+                        "goto": "5 learn about me"
+                    },
+                    "uwu": {
+                        "love": 1,
+                        "goto": "5 learn about me"
                     },
                     "angry": {
-                        "love": -8,
-                        "goto": ""
+                        "love": -1,
+                        "goto": "5 learn about me"
                     },
-                    "etc": "etc"
+                    "sad": {
+                        "love": -1,
+                        "goto": "5 learn about me"
+                    }
                 }
             },
             {
                 "text": "A boat.",
                 "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "5 learn about me"
+                    },
                     "happy": {
-                        "love": 4,
-                        "goto": ""
+                        "love": 3,
+                        "goto": "5 learn about me"
+                    },
+                    "surprised": {
+                        "love": 3,
+                        "goto": "5 learn about me"
+                    },
+                    "uwu": {
+                        "love": 5,
+                        "goto": "5 learn about me"
                     },
                     "angry": {
-                        "love": -8,
-                        "goto": ""
+                        "love": -3,
+                        "goto": "5 learn about me"
                     },
-                    "etc": "etc"
+                    "sad": {
+                        "love": -1,
+                        "goto": "5 learn about me"
+                    }
                 }
             },
             {
                 "text": "Nothing, I would never be in this situation.",
                 "emotions": {
+                    "love": {
+                        "love": 3,
+                        "goto": "5 learn about me"
+                    },
                     "happy": {
-                        "love": 4,
-                        "goto": ""
+                        "love": -3,
+                        "goto": "5 learn about me"
+                    },
+                    "surprised": {
+                        "love": 3,
+                        "goto": "5 learn about me"
+                    },
+                    "uwu": {
+                        "love": 1,
+                        "goto": "5 learn about me"
                     },
                     "angry": {
-                        "love": -8,
-                        "goto": ""
+                        "love": -1,
+                        "goto": "5 learn about me"
                     },
-                    "etc": "etc"
+                    "sad": {
+                        "love": -3,
+                        "goto": "5 learn about me"
+                    }
                 }
             }
         ]
     },
-    "learn about me": {
+    "5 learn about me": {
         "question": "Personally I would just be excited to use the opportunity to learn more about myself and the world around me. Besides, my therapist keeps telling me I need to get out more. That reminds me, I believe therapy can be beneficial for everyone. Are you in therapy?",
         "answers": [
             {
                 "text": "Do you think I should be?",
                 "emotions": {
+                    "love": {
+                        "love": -3,
+                        "goto": "6 byee"
+                    },
                     "happy": {
-                        "love": 4,
-                        "goto": ""
+                        "love": 3,
+                        "goto": "6 byee"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "6 byee"
+                    },
+                    "uwu": {
+                        "love": -1,
+                        "goto": "6 byee"
                     },
                     "angry": {
-                        "love": -8,
-                        "goto": ""
+                        "love": -3,
+                        "goto": "6 byee"
                     },
-                    "etc": "etc"
+                    "sad": {
+                        "love": -3,
+                        "goto": "6 byee"
+                    }
                 }
             },
             {
                 "text": "Yes, I am getting help for my random outbursts of emotions.",
                 "emotions": {
+                    "love": {
+                        "love": -1,
+                        "goto": "6 byee"
+                    },
                     "happy": {
-                        "love": 4,
-                        "goto": ""
+                        "love": 5,
+                        "goto": "6 byee"
+                    },
+                    "surprised": {
+                        "love": 3,
+                        "goto": "6 byee"
+                    },
+                    "uwu": {
+                        "love": 3,
+                        "goto": "6 byee"
                     },
                     "angry": {
-                        "love": -8,
-                        "goto": ""
+                        "love": 1,
+                        "goto": "6 byee"
                     },
-                    "etc": "etc"
+                    "sad": {
+                        "love": 1,
+                        "goto": "6 byee"
+                    }
                 }
             },
             {
                 "text": "Not yet.",
                 "emotions": {
+                    "love": {
+                        "love": -1,
+                        "goto": "6 byee"
+                    },
                     "happy": {
-                        "love": 4,
-                        "goto": ""
+                        "love": 1,
+                        "goto": "6 byee"
+                    },
+                    "surprised": {
+                        "love": 3,
+                        "goto": "6 byee"
+                    },
+                    "uwu": {
+                        "love": 1,
+                        "goto": "6 byee"
                     },
                     "angry": {
-                        "love": -8,
-                        "goto": ""
+                        "love": -3,
+                        "goto": "6 byee"
                     },
-                    "etc": "etc"
+                    "sad": {
+                        "love": 3,
+                        "goto": "6 byee"
+                    }
                 }
             },
             {
-                "text": "Not yet.",
+                "text": "That's too personal for a first date.",
                 "emotions": {
+                    "love": {
+                        "love": -3,
+                        "goto": "6 byee"
+                    },
                     "happy": {
-                        "love": 4,
-                        "goto": ""
+                        "love": 3,
+                        "goto": "6 byee"
+                    },
+                    "surprised": {
+                        "love": 5,
+                        "goto": "6 byee"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "6 byee"
                     },
                     "angry": {
-                        "love": -8,
-                        "goto": ""
+                        "love": 1,
+                        "goto": "6 byee"
                     },
-                    "etc": "etc"
+                    "sad": {
+                        "love": 1,
+                        "goto": "6 byee"
+                    }
                 }
             }
         ]
     },
-    "byee": {
+    "6 byee": {
         "question": "Well maybe I am getting ahead of myself, this is really just a first date after all. But it has been great getting to know you.",
         "answers": [
             {
-                "text": "For our next date we should: Go to a casino to gamble.",
+                "text": "For our next date we should go to a casino to gamble.",
                 "emotions": {
+                    "love": {
+                        "love": -1,
+                        "goto": "end"
+                    },
                     "happy": {
-                        "love": 4,
-                        "goto": ""
+                        "love": 3,
+                        "goto": "end"
+                    },
+                    "surprised": {
+                        "love": 3,
+                        "goto": "end"
+                    },
+                    "uwu": {
+                        "love": 1,
+                        "goto": "end"
                     },
                     "angry": {
-                        "love": -8,
-                        "goto": ""
+                        "love": -3,
+                        "goto": "end"
                     },
-                    "etc": "etc"
+                    "sad": {
+                        "love": -1,
+                        "goto": "end"
+                    }
                 }
             },
             {
-                "text": "For our next date we should: Take a BALLroom dance class.",
+                "text": "For our next date we should take a BALLroom dance class.",
                 "emotions": {
+                    "love": {
+                        "love": 3,
+                        "goto": "end"
+                    },
                     "happy": {
-                        "love": 4,
-                        "goto": ""
+                        "love": 5,
+                        "goto": "end"
+                    },
+                    "surprised": {
+                        "love": 3,
+                        "goto": "end"
+                    },
+                    "uwu": {
+                        "love": 3,
+                        "goto": "end"
                     },
                     "angry": {
-                        "love": -8,
-                        "goto": ""
+                        "love": 1,
+                        "goto": "end"
                     },
-                    "etc": "etc"
+                    "sad": {
+                        "love": 1,
+                        "goto": "end"
+                    }
                 }
             },
             {
-                "text": "For our next date we should: Get married.",
+                "text": "For our next date we should get married.",
                 "emotions": {
+                    "love": {
+                        "love": -3,
+                        "goto": "end"
+                    },
                     "happy": {
-                        "love": 4,
-                        "goto": ""
+                        "love": -1,
+                        "goto": "end"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "end"
+                    },
+                    "uwu": {
+                        "love": -1,
+                        "goto": "end"
                     },
                     "angry": {
-                        "love": -8,
-                        "goto": ""
+                        "love": -3,
+                        "goto": "end"
                     },
-                    "etc": "etc"
+                    "sad": {
+                        "love": -1,
+                        "goto": "end"
+                    }
                 }
             },
             {
-                "text": "For our next date we should: Whatever you want to do.",
+                "text": "For our next date we should do whatever you want to do.",
                 "emotions": {
+                    "love": {
+                        "love": 5,
+                        "goto": "end"
+                    },
                     "happy": {
-                        "love": 4,
-                        "goto": ""
+                        "love": 3,
+                        "goto": "end"
+                    },
+                    "surprised": {
+                        "love": -1,
+                        "goto": "end"
+                    },
+                    "uwu": {
+                        "love": 1,
+                        "goto": "end"
                     },
                     "angry": {
-                        "love": -8,
-                        "goto": ""
+                        "love": -1,
+                        "goto": "end"
                     },
-                    "etc": "etc"
+                    "sad": {
+                        "love": -3,
+                        "goto": "end"
+                    }
                 }
             }
         ]
