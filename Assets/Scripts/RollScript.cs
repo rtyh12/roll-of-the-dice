@@ -26,6 +26,9 @@ public class RollScript : MonoBehaviour
     private Vector3 translationOrigin;
     public float yeetDistance;
 
+    public AudioSource audioSource;
+    public float rollVolume;
+
     public State state;
 
     public StateManager stateManager;
@@ -39,7 +42,6 @@ public class RollScript : MonoBehaviour
         /* 5 */ new Vector3(0, 0, 0),
         /* 6 */ new Vector3(0, -270, 0)
     };
-
 
     Vector3 getRotationAtTime(float t)
     {
@@ -63,7 +65,7 @@ public class RollScript : MonoBehaviour
 
     public void SwitchToYeet()
     {
-        transform.eulerAngles = eulerFromFace[currentFace];
+        transform.localEulerAngles = eulerFromFace[currentFace];
         state = State.yeet;
         time = 0;
     }
@@ -81,9 +83,10 @@ public class RollScript : MonoBehaviour
 
         if (state == State.rotating)
         {
-            transform.eulerAngles = getRotationAtTime(time);
+            transform.localEulerAngles = getRotationAtTime(time);
             if (time >= rotatingTime)
                 SwitchToYeet();
+            audioSource.volume = rollVolume;
         }
         else if (state == State.yeet)
         {
@@ -92,17 +95,20 @@ public class RollScript : MonoBehaviour
             transform.position = translationOrigin + translationOffset;
             if (time >= yeetTime)
                 SwitchToStopped();
+            audioSource.volume = 0;
         }
         else if (state == State.stopped)
         {
             transform.position = translationOrigin;
             if (time >= stoppedTime)
                 SwitchToRotating();
+            audioSource.volume = 0;
         }
     }
 
     void Start()
     {
+        audioSource.volume = 0;
         time = 0;
         translationOrigin = transform.position;
     }
