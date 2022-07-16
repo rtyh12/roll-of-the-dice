@@ -42,6 +42,27 @@ public class RollScript : MonoBehaviour
         return new Vector3(0, t, t);
     }
 
+    public void SwitchToRotating()
+    {
+        state = State.rotating;
+        time = 0;
+    }
+
+    public void SwitchToYeet()
+    {
+        currentFace = Random.Range(1, 7);
+        var rotation = Quaternion.LookRotation(lookVecFromFace[currentFace]);
+        transform.rotation = rotation;
+        state = State.yeet;
+        time = 0;
+    }
+
+    public void SwitchToStopped()
+    {
+        state = State.stopped;
+        time = 0;
+    }
+
     void Update()
     {
         time += Time.deltaTime;
@@ -49,38 +70,22 @@ public class RollScript : MonoBehaviour
         if (state == State.rotating)
         {
             transform.eulerAngles = getRotationAtTime(time);
-
             if (time >= rotatingTime)
-            {
-                currentFace = Random.Range(1, 7);
-                var rotation = Quaternion.LookRotation(lookVecFromFace[currentFace]);
-                transform.rotation = rotation;
-                state = State.yeet;
-                time = 0;
-            }
+                SwitchToYeet();
         }
         else if (state == State.yeet)
         {
             float x = time / yeetTime;
             translationOffset = (-x * x + x) * 4 * yeetDistance * Vector3.up;
-
             transform.position = translationOrigin + translationOffset;
-
             if (time >= yeetTime)
-            {
-                state = State.stopped;
-                time = 0;
-            }
+                SwitchToStopped();
         }
         else if (state == State.stopped)
         {
             transform.position = translationOrigin;
-
             if (time >= stoppedTime)
-            {
-                state = State.rotating;
-                time = 0;
-            }
+                SwitchToRotating();
         }
     }
 
