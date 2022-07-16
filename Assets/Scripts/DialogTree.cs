@@ -2,17 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DialogTree : MonoBehaviour
+public class DialogNode
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+}
+
+public class Tree<T> : List<Tree<T>>
+{
+    public T Value;
+}
+
+public class DialogTree
+{
+    Tree<DialogNode> tree;
+
+    DialogTree()
     {
-        
+
     }
 }

@@ -6,11 +6,11 @@
                 "text": "Just Die",
                 "emotions": {
                     "happy": {
-                        "love": "+4",
+                        "love": 4,
                         "goto": "ok die"
                     },
                     "angry": {
-                        "love": "-8",
+                        "love": -8,
                         "goto": "oh no"
                     },
                     "etc": "etc"
