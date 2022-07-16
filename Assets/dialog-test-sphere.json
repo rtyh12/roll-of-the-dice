@@ -125,7 +125,7 @@
         "question": "Let's just start by getting to know each other a little. How would you describe yourself?",
         "answers": [
             {
-                "text": "Wow, you seem like a really well-rounded individual.",
+                "text": "Happy, Angry, Sad, Scared, Surprised, In love.",
                 "emotions": {
                     "happy": {
                         "love": 4,
@@ -139,7 +139,7 @@
                 }
             },
             {
-                "text": "I'm looking for a partner to complete me.",
+                "text": "I'm a Die.",
                 "emotions": {
                     "happy": {
                         "love": 4,
@@ -153,7 +153,7 @@
                 }
             },
             {
-                "text": "Whatever you want, I'll roll with it.",
+                "text": "I'm so randommm lol kek xDDD",
                 "emotions": {
                     "happy": {
                         "love": 4,
@@ -167,7 +167,7 @@
                 }
             },
             {
-                "text": "I'm hoping to get lucky ;)",
+                "text": "I like to live life on the edge",
                 "emotions": {
                     "happy": {
                         "love": 4,
@@ -186,7 +186,7 @@
         "question": "Oh ok… Maybe we could try something less formal. If you were trapped on a desert island, what would you want to bring?",
         "answers": [
             {
-                "text": "Wow, you seem like a really well-rounded individual.",
+                "text": "You.",
                 "emotions": {
                     "happy": {
                         "love": 4,
@@ -200,7 +200,7 @@
                 }
             },
             {
-                "text": "I'm looking for a partner to complete me.",
+                "text": "Some books that I've always wanted to read.",
                 "emotions": {
                     "happy": {
                         "love": 4,
@@ -214,7 +214,7 @@
                 }
             },
             {
-                "text": "Whatever you want, I'll roll with it.",
+                "text": "A boat.",
                 "emotions": {
                     "happy": {
                         "love": 4,
@@ -228,7 +228,7 @@
                 }
             },
             {
-                "text": "I'm hoping to get lucky ;)",
+                "text": "Nothing, I would never be in this situation.",
                 "emotions": {
                     "happy": {
                         "love": 4,
@@ -247,7 +247,7 @@
         "question": "Personally I would just be excited to use the opportunity to learn more about myself and the world around me. Besides, my therapist keeps telling me I need to get out more. That reminds me, I believe therapy can be beneficial for everyone. Are you in therapy?",
         "answers": [
             {
-                "text": "Wow, you seem like a really well-rounded individual.",
+                "text": "Do you think I should be?",
                 "emotions": {
                     "happy": {
                         "love": 4,
@@ -261,7 +261,7 @@
                 }
             },
             {
-                "text": "I'm looking for a partner to complete me.",
+                "text": "Yes, I am getting help for my random outbursts of emotions.",
                 "emotions": {
                     "happy": {
                         "love": 4,
@@ -275,7 +275,7 @@
                 }
             },
             {
-                "text": "Whatever you want, I'll roll with it.",
+                "text": "Not yet.",
                 "emotions": {
                     "happy": {
                         "love": 4,
@@ -289,7 +289,7 @@
                 }
             },
             {
-                "text": "I'm hoping to get lucky ;)",
+                "text": "Not yet.",
                 "emotions": {
                     "happy": {
                         "love": 4,
@@ -308,7 +308,7 @@
         "question": "Well maybe I am getting ahead of myself, this is really just a first date after all. But it has been great getting to know you.",
         "answers": [
             {
-                "text": "Wow, you seem like a really well-rounded individual.",
+                "text": "For our next date we should: Go to a casino to gamble.",
                 "emotions": {
                     "happy": {
                         "love": 4,
@@ -322,7 +322,7 @@
                 }
             },
             {
-                "text": "I'm looking for a partner to complete me.",
+                "text": "For our next date we should: Take a BALLroom dance class.",
                 "emotions": {
                     "happy": {
                         "love": 4,
@@ -336,7 +336,7 @@
                 }
             },
             {
-                "text": "Whatever you want, I'll roll with it.",
+                "text": "For our next date we should: Get married.",
                 "emotions": {
                     "happy": {
                         "love": 4,
@@ -350,7 +350,7 @@
                 }
             },
             {
-                "text": "I'm hoping to get lucky ;)",
+                "text": "For our next date we should: Whatever you want to do.",
                 "emotions": {
                     "happy": {
                         "love": 4,
