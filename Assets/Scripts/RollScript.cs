@@ -16,7 +16,7 @@ public class RollScript : MonoBehaviour
 
     public float rotatingTime;
     public float yeetTime;
-    public float stoppedTime;   // will be removed
+    public float stoppedTime;   // only for debug
 
     public int currentFace;
     public bool forceFace;
@@ -28,7 +28,7 @@ public class RollScript : MonoBehaviour
 
     public State state;
 
-    public JsonTestScript jsonTestScript;
+    public StateManager stateManager;
 
     public List<Vector3> eulerFromFace = new List<Vector3> {
         /* 0 */ new Vector3(0, 0, 0),       // ignore
@@ -70,7 +70,7 @@ public class RollScript : MonoBehaviour
 
     public void SwitchToStopped()
     {
-        jsonTestScript.MessageDiceStopped();
+        stateManager.MessageDiceStopped();
         state = State.stopped;
         time = 0;
     }
@@ -104,7 +104,6 @@ public class RollScript : MonoBehaviour
     void Start()
     {
         time = 0;
-        // state = State.rotating;
         translationOrigin = transform.position;
     }
 }
