@@ -86,7 +86,7 @@ public class RollScript : MonoBehaviour
             transform.localEulerAngles = getRotationAtTime(time);
             if (time >= rotatingTime)
                 SwitchToYeet();
-            audioSource.volume = rollVolume;
+            audioSource.mute = false;
         }
         else if (state == State.yeet)
         {
@@ -95,20 +95,20 @@ public class RollScript : MonoBehaviour
             transform.position = translationOrigin + translationOffset;
             if (time >= yeetTime)
                 SwitchToStopped();
-            audioSource.volume = 0;
+            audioSource.mute = true;
         }
         else if (state == State.stopped)
         {
             transform.position = translationOrigin;
             if (time >= stoppedTime)
                 SwitchToRotating();
-            audioSource.volume = 0;
+            audioSource.mute = true;
         }
     }
 
     void Start()
     {
-        audioSource.volume = 0;
+        audioSource.mute = true;
         time = 0;
         translationOrigin = transform.position;
     }
