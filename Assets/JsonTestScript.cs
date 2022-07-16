@@ -13,7 +13,8 @@ public class JsonTestScript : MonoBehaviour
         var test = JSON.Parse(json.ToString());
 
         var answers = test["are you dice"]["answers"];
-        for (int i = 0; i < answers.Count; i++) {
+        for (int i = 0; i < answers.Count; i++)
+        {
             Debug.Log(answers[i]["text"]);
         };
     }
