@@ -55,7 +55,6 @@ public class RollScript : MonoBehaviour
                 currentFace = Random.Range(1, 7);
                 var rotation = Quaternion.LookRotation(lookVecFromFace[currentFace]);
                 transform.rotation = rotation;
-                Debug.Log(transform.eulerAngles);
                 state = State.yeet;
                 time = 0;
             }
