@@ -1,0 +1,368 @@
+{
+    "are you dice": {
+        "question": "Hey, are you Dice?",
+        "answers": [
+            {
+                "text": "Just Die.",
+                "emotions": {
+                    "happy": {
+                        "love": 4,
+                        "goto": ""
+                    },
+                    "angry": {
+                        "love": -8,
+                        "goto": ""
+                    },
+                    "etc": "etc"
+                }
+            },
+            {
+                "text": "Actually that's a common misconception. My name is “Die”.",
+                "emotions": {
+                    "happy": {
+                        "love": 4,
+                        "goto": ""
+                    },
+                    "angry": {
+                        "love": -8,
+                        "goto": ""
+                    },
+                    "etc": "etc"
+                }
+            },
+            {
+                "text": "Yea but you can call me Die.",
+                "emotions": {
+                    "happy": {
+                        "love": 4,
+                        "goto": ""
+                    },
+                    "angry": {
+                        "love": -8,
+                        "goto": ""
+                    },
+                    "etc": "etc"
+                }
+            },
+            {
+                "text": "Are you balls????",
+                "emotions": {
+                    "happy": {
+                        "love": 4,
+                        "goto": ""
+                    },
+                    "angry": {
+                        "love": -8,
+                        "goto": ""
+                    },
+                    "etc": "etc"
+                }
+            }
+        ]
+    },
+    "ok die": {
+        "question": "Ok Die, I'm Sphere. Since I feel like I am a complete person already, I don't necessarily “need” a relationship to be honest. But I guess it would be nice to be able to share my life with someone and be able to learn and grow together. What are you looking for here?",
+        "answers": [
+            {
+                "text": "Wow, you seem like a really well-rounded individual.",
+                "emotions": {
+                    "happy": {
+                        "love": 4,
+                        "goto": ""
+                    },
+                    "angry": {
+                        "love": -8,
+                        "goto": ""
+                    },
+                    "etc": "etc"
+                }
+            },
+            {
+                "text": "I'm looking for a partner to complete me.",
+                "emotions": {
+                    "happy": {
+                        "love": 4,
+                        "goto": ""
+                    },
+                    "angry": {
+                        "love": -8,
+                        "goto": ""
+                    },
+                    "etc": "etc"
+                }
+            },
+            {
+                "text": "Whatever you want, I'll roll with it.",
+                "emotions": {
+                    "happy": {
+                        "love": 4,
+                        "goto": ""
+                    },
+                    "angry": {
+                        "love": -8,
+                        "goto": ""
+                    },
+                    "etc": "etc"
+                }
+            },
+            {
+                "text": "I'm hoping to get lucky ;)",
+                "emotions": {
+                    "happy": {
+                        "love": 4,
+                        "goto": ""
+                    },
+                    "angry": {
+                        "love": -8,
+                        "goto": ""
+                    },
+                    "etc": "etc"
+                }
+            }
+        ]
+    },
+    "getting to know you": {
+        "question": "Let's just start by getting to know each other a little. How would you describe yourself?",
+        "answers": [
+            {
+                "text": "Wow, you seem like a really well-rounded individual.",
+                "emotions": {
+                    "happy": {
+                        "love": 4,
+                        "goto": ""
+                    },
+                    "angry": {
+                        "love": -8,
+                        "goto": ""
+                    },
+                    "etc": "etc"
+                }
+            },
+            {
+                "text": "I'm looking for a partner to complete me.",
+                "emotions": {
+                    "happy": {
+                        "love": 4,
+                        "goto": ""
+                    },
+                    "angry": {
+                        "love": -8,
+                        "goto": ""
+                    },
+                    "etc": "etc"
+                }
+            },
+            {
+                "text": "Whatever you want, I'll roll with it.",
+                "emotions": {
+                    "happy": {
+                        "love": 4,
+                        "goto": ""
+                    },
+                    "angry": {
+                        "love": -8,
+                        "goto": ""
+                    },
+                    "etc": "etc"
+                }
+            },
+            {
+                "text": "I'm hoping to get lucky ;)",
+                "emotions": {
+                    "happy": {
+                        "love": 4,
+                        "goto": ""
+                    },
+                    "angry": {
+                        "love": -8,
+                        "goto": ""
+                    },
+                    "etc": "etc"
+                }
+            }
+        ]
+    },
+    "Oh ok": {
+        "question": "Oh ok… Maybe we could try something less formal. If you were trapped on a desert island, what would you want to bring?",
+        "answers": [
+            {
+                "text": "Wow, you seem like a really well-rounded individual.",
+                "emotions": {
+                    "happy": {
+                        "love": 4,
+                        "goto": ""
+                    },
+                    "angry": {
+                        "love": -8,
+                        "goto": ""
+                    },
+                    "etc": "etc"
+                }
+            },
+            {
+                "text": "I'm looking for a partner to complete me.",
+                "emotions": {
+                    "happy": {
+                        "love": 4,
+                        "goto": ""
+                    },
+                    "angry": {
+                        "love": -8,
+                        "goto": ""
+                    },
+                    "etc": "etc"
+                }
+            },
+            {
+                "text": "Whatever you want, I'll roll with it.",
+                "emotions": {
+                    "happy": {
+                        "love": 4,
+                        "goto": ""
+                    },
+                    "angry": {
+                        "love": -8,
+                        "goto": ""
+                    },
+                    "etc": "etc"
+                }
+            },
+            {
+                "text": "I'm hoping to get lucky ;)",
+                "emotions": {
+                    "happy": {
+                        "love": 4,
+                        "goto": ""
+                    },
+                    "angry": {
+                        "love": -8,
+                        "goto": ""
+                    },
+                    "etc": "etc"
+                }
+            }
+        ]
+    },
+    "learn about me": {
+        "question": "Personally I would just be excited to use the opportunity to learn more about myself and the world around me. Besides, my therapist keeps telling me I need to get out more. That reminds me, I believe therapy can be beneficial for everyone. Are you in therapy?",
+        "answers": [
+            {
+                "text": "Wow, you seem like a really well-rounded individual.",
+                "emotions": {
+                    "happy": {
+                        "love": 4,
+                        "goto": ""
+                    },
+                    "angry": {
+                        "love": -8,
+                        "goto": ""
+                    },
+                    "etc": "etc"
+                }
+            },
+            {
+                "text": "I'm looking for a partner to complete me.",
+                "emotions": {
+                    "happy": {
+                        "love": 4,
+                        "goto": ""
+                    },
+                    "angry": {
+                        "love": -8,
+                        "goto": ""
+                    },
+                    "etc": "etc"
+                }
+            },
+            {
+                "text": "Whatever you want, I'll roll with it.",
+                "emotions": {
+                    "happy": {
+                        "love": 4,
+                        "goto": ""
+                    },
+                    "angry": {
+                        "love": -8,
+                        "goto": ""
+                    },
+                    "etc": "etc"
+                }
+            },
+            {
+                "text": "I'm hoping to get lucky ;)",
+                "emotions": {
+                    "happy": {
+                        "love": 4,
+                        "goto": ""
+                    },
+                    "angry": {
+                        "love": -8,
+                        "goto": ""
+                    },
+                    "etc": "etc"
+                }
+            }
+        ]
+    },
+    "byee": {
+        "question": "Well maybe I am getting ahead of myself, this is really just a first date after all. But it has been great getting to know you.",
+        "answers": [
+            {
+                "text": "Wow, you seem like a really well-rounded individual.",
+                "emotions": {
+                    "happy": {
+                        "love": 4,
+                        "goto": ""
+                    },
+                    "angry": {
+                        "love": -8,
+                        "goto": ""
+                    },
+                    "etc": "etc"
+                }
+            },
+            {
+                "text": "I'm looking for a partner to complete me.",
+                "emotions": {
+                    "happy": {
+                        "love": 4,
+                        "goto": ""
+                    },
+                    "angry": {
+                        "love": -8,
+                        "goto": ""
+                    },
+                    "etc": "etc"
+                }
+            },
+            {
+                "text": "Whatever you want, I'll roll with it.",
+                "emotions": {
+                    "happy": {
+                        "love": 4,
+                        "goto": ""
+                    },
+                    "angry": {
+                        "love": -8,
+                        "goto": ""
+                    },
+                    "etc": "etc"
+                }
+            },
+            {
+                "text": "I'm hoping to get lucky ;)",
+                "emotions": {
+                    "happy": {
+                        "love": 4,
+                        "goto": ""
+                    },
+                    "angry": {
+                        "love": -8,
+                        "goto": ""
+                    },
+                    "etc": "etc"
+                }
+            }
+        ]
+    }
+}
