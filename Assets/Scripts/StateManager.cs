@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 using SimpleJSON;
 
 public class StateManager : MonoBehaviour
@@ -17,10 +19,17 @@ public class StateManager : MonoBehaviour
     public bool timeSinceYeetEndTimerStopped;
     public float switchDialogGUITextDelay;
 
-    void ChooseDialogOption(int option)
+    public TextMeshProUGUI questionText;
+    public TextMeshProUGUI answerText;
+    public Button button0;
+    public Button button1;
+    public Button button2;
+    public Button button3;
+
+    public void ChooseDialogOption(int option)
     {
         Debug.Log("Player chooses answer no. " + option);
-        
+
         rollScript.GenerateNewFace();
         rollScript.SwitchToRotating();
         int face = rollScript.currentFace;
@@ -35,10 +44,17 @@ public class StateManager : MonoBehaviour
             "sad"
         }[face];
 
-        SwitchPlayerAnswerGUIText(option);
+        try
+        {
+            SwitchPlayerAnswerGUIText(option);
+            currentNode = sceneJson[currentNode]["answers"][option]["emotions"][emotion]["goto"];
+            love += sceneJson[currentNode]["answers"][option]["emotions"][emotion]["love"];
+        }
+        catch
+        {
+            Debug.Log("DIALOG MISSING");
+        }
 
-        currentNode = sceneJson[currentNode]["answers"][option]["emotions"][emotion]["goto"];
-        love += sceneJson[currentNode]["answers"][option]["emotions"][emotion]["love"];
     }
 
     [ContextMenu("Do Something")]
@@ -61,6 +77,12 @@ public class StateManager : MonoBehaviour
         for (int i = 0; i < answersJson.Count; i++)
             answers.Add(answersJson[i]["text"]);
 
+        questionText.text = question;
+        button0.GetComponentInChildren<TextMeshProUGUI>().text = answers[0];
+        button1.GetComponentInChildren<TextMeshProUGUI>().text = answers[1];
+        button2.GetComponentInChildren<TextMeshProUGUI>().text = answers[2];
+        button3.GetComponentInChildren<TextMeshProUGUI>().text = answers[3];
+
         // Debug.Log(question);
         // for (int i = 0; i < answers.Count; i++)
         //     Debug.Log(answers[i]);
@@ -80,7 +102,14 @@ public class StateManager : MonoBehaviour
 
         if (timeSinceYeetEnd >= switchDialogGUITextDelay)
         {
-            SwitchDialogGUIText();
+            try
+            {
+                SwitchDialogGUIText();
+            }
+            catch
+            {
+                Debug.LogError("DIALOG MISSING");
+            }
             timeSinceYeetEndTimerStopped = true;
             timeSinceYeetEnd = 0;
         }
