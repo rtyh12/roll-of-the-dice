@@ -57,12 +57,6 @@ public class StateManager : MonoBehaviour
 
     }
 
-    [ContextMenu("Do Something")]
-    void DoSomething()
-    {
-        ChooseDialogOption(0);
-    }
-
     void SwitchPlayerAnswerGUIText(int option)
     {
         var playerText = sceneJson[currentNode]["answers"][option]["text"];
@@ -82,11 +76,6 @@ public class StateManager : MonoBehaviour
         button1.GetComponentInChildren<TextMeshProUGUI>().text = answers[1];
         button2.GetComponentInChildren<TextMeshProUGUI>().text = answers[2];
         button3.GetComponentInChildren<TextMeshProUGUI>().text = answers[3];
-
-        // Debug.Log(question);
-        // for (int i = 0; i < answers.Count; i++)
-        //     Debug.Log(answers[i]);
-        Debug.Log("Switch dialog to \"" + currentNode + "\"");
     }
 
     public void MessageDiceStopped()
@@ -118,5 +107,6 @@ public class StateManager : MonoBehaviour
     void Start()
     {
         sceneJson = JSON.Parse(json.ToString());
+        SwitchDialogGUIText();
     }
 }
