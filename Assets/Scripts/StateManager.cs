@@ -25,6 +25,12 @@ public class StateManager : MonoBehaviour
     public Button button1;
     public Button button2;
     public Button button3;
+    public Image heartImage;
+
+    static float Remap(float value, float from1, float to1, float from2, float to2)
+    {
+        return (value - from1) / (to1 - from1) * (to2 - from2) + from2;
+    }
 
     public void ChooseDialogOption(int option)
     {
@@ -86,6 +92,10 @@ public class StateManager : MonoBehaviour
 
     void Update()
     {
+        // -18, 30  ->  0, 100
+        heartImage.fillAmount = Remap((float)love, -18f, 30f, 0f, 1f);
+        Debug.Log(Remap((float)love, -18f, 30f, 0f, 1f));
+
         if (!timeSinceYeetEndTimerStopped)
             timeSinceYeetEnd += Time.deltaTime;
 
