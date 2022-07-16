@@ -19,6 +19,8 @@ public class RollScript : MonoBehaviour
     public float stoppedTime;   // will be removed
 
     public int currentFace;
+    public bool forceFace;
+    public int forceFaceNumber;
 
     private Vector3 translationOffset = new Vector3(0, 0, 0);
     private Vector3 translationOrigin;
@@ -26,14 +28,14 @@ public class RollScript : MonoBehaviour
 
     public State state;
 
-    public List<Vector3> lookVecFromFace = new List<Vector3> {
-        Vector3.zero,       // ignore
-        Vector3.up,         // 1
-        Vector3.down,       // 2
-        Vector3.left,       // 3
-        Vector3.right,      // 4
-        Vector3.forward,    // 5
-        Vector3.back        // 6
+    public List<Vector3> eulerFromFace = new List<Vector3> {
+        /* 0 */ new Vector3(0, 0, 0),       // ignore
+        /* 1 */ new Vector3(0, -90, 0),
+        /* 2 */ new Vector3(0, -180, 0),    
+        /* 3 */ new Vector3(180, 0, 90),
+        /* 4 */ new Vector3(180, 0, 270),
+        /* 5 */ new Vector3(0, 0, 0),
+        /* 6 */ new Vector3(0, -270, 0)
     };
 
     Vector3 getRotationAtTime(float t)
@@ -50,9 +52,11 @@ public class RollScript : MonoBehaviour
 
     public void SwitchToYeet()
     {
-        currentFace = Random.Range(1, 7);
-        var rotation = Quaternion.LookRotation(lookVecFromFace[currentFace]);
-        transform.rotation = rotation;
+        if (forceFace)
+            currentFace = forceFaceNumber;
+        else
+            currentFace = Random.Range(1, 7);
+        transform.eulerAngles = eulerFromFace[currentFace];
         state = State.yeet;
         time = 0;
     }
