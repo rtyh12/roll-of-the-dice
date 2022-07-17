@@ -7,7 +7,7 @@ public static class StatsManager
 {
     // The n-th entry of this list corresponds with the n+2-th scene,
     // as scene 2 is the first dating scene
-    private static List<int> loveScores = new List<int> { 0, 0, 0, 0, 0, 0 };
+    public static List<int> loveScores = new List<int> { 0, 0, 0, 0, 0, 0 };
 
     public static void resetLoveScores()
     {
