@@ -82,6 +82,8 @@ public class StateManager : MonoBehaviour
 
     void SwitchDialogGUIText()
     {
+        heartImage.fillAmount = Remap((float)love, -18f, 30f, 0f, 1f);
+
         var question = sceneJson[currentNode]["question"];
         var answersJson = sceneJson[currentNode]["answers"];
         var answers = new List<string>();
@@ -104,8 +106,6 @@ public class StateManager : MonoBehaviour
 
     void Update()
     {
-        heartImage.fillAmount = Remap((float)love, -18f, 30f, 0f, 1f);
-
         if (!timeSinceYeetEndTimerStopped)
             timeSinceYeetEnd += Time.deltaTime;
 
