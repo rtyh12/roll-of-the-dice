@@ -83,6 +83,22 @@ public class StateManager : MonoBehaviour
     void SwitchPlayerAnswerGUIText(int option)
     {
         var playerText = sceneJson[currentNode]["answers"][option]["text"];
+
+        button0.GetComponentInChildren<TextMeshProUGUI>().alpha = 0;
+        button1.GetComponentInChildren<TextMeshProUGUI>().alpha = 0;
+        button2.GetComponentInChildren<TextMeshProUGUI>().alpha = 0;
+        button3.GetComponentInChildren<TextMeshProUGUI>().alpha = 0;
+
+        // HACK UGH
+        if (option == 0)
+            button0.GetComponentInChildren<TextMeshProUGUI>().alpha = 1;
+        else if (option == 1)
+            button1.GetComponentInChildren<TextMeshProUGUI>().alpha = 1;
+        else if (option == 2)
+            button2.GetComponentInChildren<TextMeshProUGUI>().alpha = 1;
+        else
+            button3.GetComponentInChildren<TextMeshProUGUI>().alpha = 1;
+
         Debug.Log("Player says \"" + playerText + "\"");
     }
 
@@ -100,6 +116,12 @@ public class StateManager : MonoBehaviour
             answers.Add(answersJson[i]["text"]);
 
         questionText.text = question;
+
+        button0.GetComponentInChildren<TextMeshProUGUI>().alpha = 1;
+        button1.GetComponentInChildren<TextMeshProUGUI>().alpha = 1;
+        button2.GetComponentInChildren<TextMeshProUGUI>().alpha = 1;
+        button3.GetComponentInChildren<TextMeshProUGUI>().alpha = 1;
+        
         button0.GetComponentInChildren<TextMeshProUGUI>().text = answers[0];
         button1.GetComponentInChildren<TextMeshProUGUI>().text = answers[1];
         button2.GetComponentInChildren<TextMeshProUGUI>().text = answers[2];
