@@ -729,7 +729,94 @@
         "question": "Ah, yes. Thank you for this date. Goodbye.",
         "answers": [
             {
-                "text": "",
+                "text": "Bye.",
+                "emotions": {
+                    "love": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "happy": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "surprised": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "uwu": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "angry": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "sad": {
+                        "love": 0,
+                        "goto": "end"
+                    }
+                }
+            },
+            {
+                "text": "Bye.",
+                "emotions": {
+                    "love": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "happy": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "surprised": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "uwu": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "angry": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "sad": {
+                        "love": 0,
+                        "goto": "end"
+                    }
+                }
+            },
+            {
+                "text": "Bye.",
+                "emotions": {
+                    "love": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "happy": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "surprised": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "uwu": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "angry": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "sad": {
+                        "love": 0,
+                        "goto": "end"
+                    }
+                }
+            },
+            {
+                "text": "Bye.",
                 "emotions": {
                     "love": {
                         "love": 0,
