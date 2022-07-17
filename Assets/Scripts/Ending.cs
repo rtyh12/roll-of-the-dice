@@ -18,6 +18,7 @@ public class Ending : MonoBehaviour
     void Start()
     {
         int winner = StatsManager.getWinnerID();
+        //int winner = 5;
         textMesh.text = text + names[winner];
         Instantiate(prefabs[winner], placeholder.transform);
     }

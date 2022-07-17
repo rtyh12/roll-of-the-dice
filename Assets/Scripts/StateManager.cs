@@ -12,6 +12,7 @@ public class StateManager : MonoBehaviour
     public JSONNode sceneJson;
 
     public int love;
+    public int lastLoveChange;
     public string currentNode;
 
     public RollScript rollScript;
@@ -27,13 +28,15 @@ public class StateManager : MonoBehaviour
     public Button button2;
     public Button button3;
     public Image heartImage;
+    public LoveChangeScript loveChangeScript;
 
     static float Remap(float value, float from1, float to1, float from2, float to2)
     {
         return (value - from1) / (to1 - from1) * (to2 - from2) + from2;
     }
 
-    void GoToNextDate() {
+    void GoToNextDate()
+    {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
@@ -58,11 +61,14 @@ public class StateManager : MonoBehaviour
         try
         {
             SwitchPlayerAnswerGUIText(option);
-            love += sceneJson[currentNode]["answers"][option]["emotions"][emotion]["love"];
+            int loveChange = sceneJson[currentNode]["answers"][option]["emotions"][emotion]["love"];
+            love += loveChange;
+            lastLoveChange = loveChange;
             StatsManager.setLoveScore(love);
-            
+
             currentNode = sceneJson[currentNode]["answers"][option]["emotions"][emotion]["goto"];
-            if (currentNode == "end") {
+            if (currentNode == "end")
+            {
                 GoToNextDate();
                 return;
             }
@@ -77,11 +83,34 @@ public class StateManager : MonoBehaviour
     void SwitchPlayerAnswerGUIText(int option)
     {
         var playerText = sceneJson[currentNode]["answers"][option]["text"];
+
+        button0.GetComponentInChildren<TextMeshProUGUI>().alpha = 0;
+        button1.GetComponentInChildren<TextMeshProUGUI>().alpha = 0;
+        button2.GetComponentInChildren<TextMeshProUGUI>().alpha = 0;
+        button3.GetComponentInChildren<TextMeshProUGUI>().alpha = 0;
+
+        button0.interactable = false;
+        button1.interactable = false;
+        button2.interactable = false;
+        button3.interactable = false;
+
+        // HACK UGH
+        if (option == 0)
+            button0.GetComponentInChildren<TextMeshProUGUI>().alpha = 1;
+        else if (option == 1)
+            button1.GetComponentInChildren<TextMeshProUGUI>().alpha = 1;
+        else if (option == 2)
+            button2.GetComponentInChildren<TextMeshProUGUI>().alpha = 1;
+        else
+            button3.GetComponentInChildren<TextMeshProUGUI>().alpha = 1;
+
         Debug.Log("Player says \"" + playerText + "\"");
     }
 
-    void SwitchDialogGUIText()
+    void SwitchDialogGUIText(bool dontTriggerLoveChangeAnimation = false)
     {
+        heartImage.fillAmount = Remap((float)love, -18f, 30f, 0f, 1f);
+
         var question = sceneJson[currentNode]["question"];
         var answersJson = sceneJson[currentNode]["answers"];
         var answers = new List<string>();
@@ -89,14 +118,28 @@ public class StateManager : MonoBehaviour
             answers.Add(answersJson[i]["text"]);
 
         questionText.text = question;
+
+        button0.GetComponentInChildren<TextMeshProUGUI>().alpha = 1;
+        button1.GetComponentInChildren<TextMeshProUGUI>().alpha = 1;
+        button2.GetComponentInChildren<TextMeshProUGUI>().alpha = 1;
+        button3.GetComponentInChildren<TextMeshProUGUI>().alpha = 1;
+        
         button0.GetComponentInChildren<TextMeshProUGUI>().text = answers[0];
         button1.GetComponentInChildren<TextMeshProUGUI>().text = answers[1];
         button2.GetComponentInChildren<TextMeshProUGUI>().text = answers[2];
         button3.GetComponentInChildren<TextMeshProUGUI>().text = answers[3];
+
+        button0.interactable = true;
+        button1.interactable = true;
+        button2.interactable = true;
+        button3.interactable = true;
     }
 
     public void MessageDiceStopped()
     {
+        heartImage.fillAmount = Remap((float)love, -18f, 30f, 0f, 1f);
+        loveChangeScript.TriggerAnimation(lastLoveChange);
+
         timeSinceYeetEnd = 0;
         timeSinceYeetEndTimerStopped = false;
     }
@@ -104,8 +147,6 @@ public class StateManager : MonoBehaviour
 
     void Update()
     {
-        heartImage.fillAmount = Remap((float)love, -18f, 30f, 0f, 1f);
-
         if (!timeSinceYeetEndTimerStopped)
             timeSinceYeetEnd += Time.deltaTime;
 
@@ -128,6 +169,6 @@ public class StateManager : MonoBehaviour
     {
         sceneJson = JSON.Parse(json.ToString());
         love = StatsManager.getLoveScore();
-        SwitchDialogGUIText();
+        SwitchDialogGUIText(dontTriggerLoveChangeAnimation: true);
     }
 }
