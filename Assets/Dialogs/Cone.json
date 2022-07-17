@@ -1,0 +1,849 @@
+{
+    "1 fashion emergency": {
+        "question": "Sorry I'm late, I had a fashion emergency. I'll take a medium caramel latte with low fat oat milk and a bagel.",
+        "answers": [
+            {
+                "text": "Hi I'm Die, you must be Cone.",
+                "emotions": {
+                    "love": {
+                        "love": -1,
+                        "goto": "2 followers"
+                    },
+                    "happy": {
+                        "love": 5,
+                        "goto": "2 followers"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "2 followers"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "2 followers"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "2 followers"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "2 followers"
+                    }
+                }
+            },
+            {
+                "text": "*Get the order*",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "2 followers"
+                    },
+                    "happy": {
+                        "love": 1,
+                        "goto": "2 followers"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "2 followers"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "2 followers"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "2 followers"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "2 followers"
+                    }
+                }
+            },
+            {
+                "text": "Sorry, I'm actually waiting for someone else.",
+                "emotions": {
+                    "love": {
+                        "love": -1,
+                        "goto": "2 followers"
+                    },
+                    "happy": {
+                        "love": -1,
+                        "goto": "2 followers"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "2 followers"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "2 followers"
+                    },
+                    "angry": {
+                        "love": 1,
+                        "goto": "2 followers"
+                    },
+                    "sad": {
+                        "love": 5,
+                        "goto": "2 followers"
+                    }
+                }
+            },
+            {
+                "text": "Omg it's so great to meet you, I'm a huge fan!",
+                "emotions": {
+                    "love": {
+                        "love": -1,
+                        "goto": "2 followers"
+                    },
+                    "happy": {
+                        "love": -1,
+                        "goto": "2 followers"
+                    },
+                    "surprised": {
+                        "love": -1,
+                        "goto": "2 followers"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "2 followers"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "2 followers"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "2 followers"
+                    }
+                }
+            }
+        ]
+    },
+    "2 followers": {
+        "question": "So how many followers do you have?",
+        "answers": [
+            {
+                "text": "I'm not really on social media.",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "3 personal brand"
+                    },
+                    "happy": {
+                        "love": 5,
+                        "goto": "3 personal brand"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "3 personal brand"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "3 personal brand"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "3 personal brand"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "3 personal brand"
+                    }
+                }
+            },
+            {
+                "text": "Only people I know irl follow me online.",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "3 personal brand"
+                    },
+                    "happy": {
+                        "love": 3,
+                        "goto": "3 personal brand"
+                    },
+                    "surprised": {
+                        "love": 5,
+                        "goto": "3 personal brand"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "3 personal brand"
+                    },
+                    "angry": {
+                        "love": 1,
+                        "goto": "3 personal brand"
+                    },
+                    "sad": {
+                        "love": 1,
+                        "goto": "3 personal brand"
+                    }
+                }
+            },
+            {
+                "text": "I'm actually famous on Pinterest.",
+                "emotions": {
+                    "love": {
+                        "love": -3,
+                        "goto": "3 personal brand"
+                    },
+                    "happy": {
+                        "love": -1,
+                        "goto": "3 personal brand"
+                    },
+                    "surprised": {
+                        "love": -1,
+                        "goto": "3 personal brand"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "3 personal brand"
+                    },
+                    "angry": {
+                        "love": 1,
+                        "goto": "3 personal brand"
+                    },
+                    "sad": {
+                        "love": 3,
+                        "goto": "3 personal brand"
+                    }
+                }
+            },
+            {
+                "text": "The algorithms love me.",
+                "emotions": {
+                    "love": {
+                        "love": -3,
+                        "goto": "3 personal brand"
+                    },
+                    "happy": {
+                        "love": 1,
+                        "goto": "3 personal brand"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "3 personal brand"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "3 personal brand"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "3 personal brand"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "3 personal brand"
+                    }
+                }
+            }
+        ]
+    },
+    "3 personal brand": {
+        "question": "What's your personal brand?",
+        "answers": [
+            {
+                "text": "I am not for sale!",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "4 photogenic"
+                    },
+                    "happy": {
+                        "love": 5,
+                        "goto": "4 photogenic"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "4 photogenic"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "4 photogenic"
+                    },
+                    "angry": {
+                        "love": 3,
+                        "goto": "4 photogenic"
+                    },
+                    "sad": {
+                        "love": 1,
+                        "goto": "4 photogenic"
+                    }
+                }
+            },
+            {
+                "text": "I'm just 100% myself.",
+                "emotions": {
+                    "love": {
+                        "love": -3,
+                        "goto": "4 photogenic"
+                    },
+                    "happy": {
+                        "love": -1,
+                        "goto": "4 photogenic"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "4 photogenic"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "4 photogenic"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "4 photogenic"
+                    },
+                    "sad": {
+                        "love": -3,
+                        "goto": "4 photogenic"
+                    }
+                }
+            },
+            {
+                "text": "I'm a hip young fashion enthusiast always looking for the next trend.",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "4 photogenic"
+                    },
+                    "happy": {
+                        "love": -1,
+                        "goto": "4 photogenic"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "4 photogenic"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "4 photogenic"
+                    },
+                    "angry": {
+                        "love": 1,
+                        "goto": "4 photogenic"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "4 photogenic"
+                    }
+                }
+            },
+            {
+                "text": "I'm a gamer.",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "4 photogenic"
+                    },
+                    "happy": {
+                        "love": 1,
+                        "goto": "4 photogenic"
+                    },
+                    "surprised": {
+                        "love": 3,
+                        "goto": "4 photogenic"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "4 photogenic"
+                    },
+                    "angry": {
+                        "love": 3,
+                        "goto": "4 photogenic"
+                    },
+                    "sad": {
+                        "love": 5,
+                        "goto": "4 photogenic"
+                    }
+                }
+            }
+        ]
+    },
+    "4 photogenic": {
+        "question": "Do you photograph well?",
+        "answers": [
+            {
+                "text": "I love to make silly faces.",
+                "emotions": {
+                    "love": {
+                        "love": 3,
+                        "goto": "5 travel"
+                    },
+                    "happy": {
+                        "love": 5,
+                        "goto": "5 travel"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "5 travel"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "5 travel"
+                    },
+                    "angry": {
+                        "love": 3,
+                        "goto": "5 travel"
+                    },
+                    "sad": {
+                        "love": 1,
+                        "goto": "5 travel"
+                    }
+                }
+            },
+            {
+                "text": "All my angles are right angles.",
+                "emotions": {
+                    "love": {
+                        "love": -3,
+                        "goto": "5 travel"
+                    },
+                    "happy": {
+                        "love": -1,
+                        "goto": "5 travel"
+                    },
+                    "surprised": {
+                        "love": -1,
+                        "goto": "5 travel"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "5 travel"
+                    },
+                    "angry": {
+                        "love": 1,
+                        "goto": "5 travel"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "5 travel"
+                    }
+                }
+            },
+            {
+                "text": "I look best when I'm far away.",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "5 travel"
+                    },
+                    "happy": {
+                        "love": 3,
+                        "goto": "5 travel"
+                    },
+                    "surprised": {
+                        "love": 3,
+                        "goto": "5 travel"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "5 travel"
+                    },
+                    "angry": {
+                        "love": 1,
+                        "goto": "5 travel"
+                    },
+                    "sad": {
+                        "love": 1,
+                        "goto": "5 travel"
+                    }
+                }
+            },
+            {
+                "text": "I prefer to take pictures rather than be in them.",
+                "emotions": {
+                    "love": {
+                        "love": -1,
+                        "goto": "5 travel"
+                    },
+                    "happy": {
+                        "love": -3,
+                        "goto": "5 travel"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "5 travel"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "5 travel"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "5 travel"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "5 travel"
+                    }
+                }
+            }
+        ]
+    },
+    "5 travel": {
+        "question": "What's your dream travel destination?",
+        "answers": [
+            {
+                "text": "Your place.",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "6 zodiac"
+                    },
+                    "happy": {
+                        "love": 1,
+                        "goto": "6 zodiac"
+                    },
+                    "surprised": {
+                        "love": 3,
+                        "goto": "6 zodiac"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "6 zodiac"
+                    },
+                    "angry": {
+                        "love": 5,
+                        "goto": "6 zodiac"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "6 zodiac"
+                    }
+                }
+            },
+            {
+                "text": "I like to be off the grid, by myself, in the middle of the woods.",
+                "emotions": {
+                    "love": {
+                        "love": -3,
+                        "goto": "6 zodiac"
+                    },
+                    "happy": {
+                        "love": -1,
+                        "goto": "6 zodiac"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "6 zodiac"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "6 zodiac"
+                    },
+                    "angry": {
+                        "love": -3,
+                        "goto": "6 zodiac"
+                    },
+                    "sad": {
+                        "love": 1,
+                        "goto": "6 zodiac"
+                    }
+                }
+            },
+            {
+                "text": "Probably Paris to take pictures of the Eiffel Tower.",
+                "emotions": {
+                    "love": {
+                        "love": -1,
+                        "goto": "6 zodiac"
+                    },
+                    "happy": {
+                        "love": -3,
+                        "goto": "6 zodiac"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "6 zodiac"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "6 zodiac"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "6 zodiac"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "6 zodiac"
+                    }
+                }
+            },
+            {
+                "text": "Anywhere expensive.",
+                "emotions": {
+                    "love": {
+                        "love": 3,
+                        "goto": "6 zodiac"
+                    },
+                    "happy": {
+                        "love": 5,
+                        "goto": "6 zodiac"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "6 zodiac"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "6 zodiac"
+                    },
+                    "angry": {
+                        "love": 3,
+                        "goto": "6 zodiac"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "6 zodiac"
+                    }
+                }
+            }
+        ]
+    },
+    "6 zodiac": {
+        "question": "What's your zodiac?",
+        "answers": [
+            {
+                "text": "I'm an Ares Sun, Virgo Moon, Pisces Rising.",
+                "emotions": {
+                    "love": {
+                        "love": -3,
+                        "goto": "7 byee"
+                    },
+                    "happy": {
+                        "love": -3,
+                        "goto": "7 byee"
+                    },
+                    "surprised": {
+                        "love": -1,
+                        "goto": "7 byee"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "7 byee"
+                    },
+                    "angry": {
+                        "love": 1,
+                        "goto": "7 byee"
+                    },
+                    "sad": {
+                        "love": 1,
+                        "goto": "7 byee"
+                    }
+                }
+            },
+            {
+                "text": "I don't believe in that stuff at all.",
+                "emotions": {
+                    "love": {
+                        "love": 5,
+                        "goto": "7 byee"
+                    },
+                    "happy": {
+                        "love": 3,
+                        "goto": "7 byee"
+                    },
+                    "surprised": {
+                        "love": 3,
+                        "goto": "7 byee"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "7 byee"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "7 byee"
+                    },
+                    "sad": {
+                        "love": -3,
+                        "goto": "7 byee"
+                    }
+                }
+            },
+            {
+                "text": "Well you're definitely a Leo. I love your energy. I feel like our stars are in harmony.",
+                "emotions": {
+                    "love": {
+                        "love": 3,
+                        "goto": "7 byee"
+                    },
+                    "happy": {
+                        "love": 1,
+                        "goto": "7 byee"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "7 byee"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "7 byee"
+                    },
+                    "angry": {
+                        "love": 1,
+                        "goto": "7 byee"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "7 byee"
+                    }
+                }
+            },
+            {
+                "text": "I don't know, maybe a Gemini?",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "7 byee"
+                    },
+                    "happy": {
+                        "love": 3,
+                        "goto": "7 byee"
+                    },
+                    "surprised": {
+                        "love": 5,
+                        "goto": "7 byee"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "7 byee"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "7 byee"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "7 byee"
+                    }
+                }
+            }
+        ]
+    },
+    "7 byee": {
+        "question": "",
+        "answers": [
+            {
+                "text": "Bye.",
+                "emotions": {
+                    "love": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "happy": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "surprised": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "uwu": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "angry": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "sad": {
+                        "love": 0,
+                        "goto": "end"
+                    }
+                }
+            },
+            {
+                "text": "Bye.",
+                "emotions": {
+                    "love": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "happy": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "surprised": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "uwu": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "angry": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "sad": {
+                        "love": 0,
+                        "goto": "end"
+                    }
+                }
+            },
+            {
+                "text": "Bye.",
+                "emotions": {
+                    "love": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "happy": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "surprised": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "uwu": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "angry": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "sad": {
+                        "love": 0,
+                        "goto": "end"
+                    }
+                }
+            },
+            {
+                "text": "Bye.",
+                "emotions": {
+                    "love": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "happy": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "surprised": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "uwu": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "angry": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "sad": {
+                        "love": 0,
+                        "goto": "end"
+                    }
+                }
+            }
+        ]
+    }
+}

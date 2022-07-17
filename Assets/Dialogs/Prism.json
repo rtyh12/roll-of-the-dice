@@ -1,0 +1,849 @@
+{
+    "1 I am Prism": {
+        "question": "Hey Die! I'm Prism, I go by he/ they! What are your pronouns?",
+        "answers": [
+            {
+                "text": "Die / Dice",
+                "emotions": {
+                    "love": {
+                        "love": -1,
+                        "goto": "2 fav ESC"
+                    },
+                    "happy": {
+                        "love": 5,
+                        "goto": "2 fav ESC"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "2 fav ESC"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "2 fav ESC"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "2 fav ESC"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "2 fav ESC"
+                    }
+                }
+            },
+            {
+                "text": "She / Her ",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "2 fav ESC"
+                    },
+                    "happy": {
+                        "love": 1,
+                        "goto": "2 fav ESC"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "2 fav ESC"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "2 fav ESC"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "2 fav ESC"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "2 fav ESC"
+                    }
+                }
+            },
+            {
+                "text": "He / Him",
+                "emotions": {
+                    "love": {
+                        "love": -1,
+                        "goto": "2 fav ESC"
+                    },
+                    "happy": {
+                        "love": -1,
+                        "goto": "2 fav ESC"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "2 fav ESC"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "2 fav ESC"
+                    },
+                    "angry": {
+                        "love": 1,
+                        "goto": "2 fav ESC"
+                    },
+                    "sad": {
+                        "love": 5,
+                        "goto": "2 fav ESC"
+                    }
+                }
+            },
+            {
+                "text": "They / Them",
+                "emotions": {
+                    "love": {
+                        "love": -1,
+                        "goto": "2 fav ESC"
+                    },
+                    "happy": {
+                        "love": -1,
+                        "goto": "2 fav ESC"
+                    },
+                    "surprised": {
+                        "love": -1,
+                        "goto": "2 fav ESC"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "2 fav ESC"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "2 fav ESC"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "2 fav ESC"
+                    }
+                }
+            }
+        ]
+    },
+    "2 fav ESC": {
+        "question": "Before we go any further I have to ask: who was your favorite Eurovision contestant of all time?",
+        "answers": [
+            {
+                "text": "Obviously ABBA, who else???",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "3 tattoos"
+                    },
+                    "happy": {
+                        "love": 5,
+                        "goto": "3 tattoos"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "3 tattoos"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "3 tattoos"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "3 tattoos"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "3 tattoos"
+                    }
+                }
+            },
+            {
+                "text": "The one and only icon: Conchita Wurst",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "3 tattoos"
+                    },
+                    "happy": {
+                        "love": 3,
+                        "goto": "3 tattoos"
+                    },
+                    "surprised": {
+                        "love": 5,
+                        "goto": "3 tattoos"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "3 tattoos"
+                    },
+                    "angry": {
+                        "love": 1,
+                        "goto": "3 tattoos"
+                    },
+                    "sad": {
+                        "love": 1,
+                        "goto": "3 tattoos"
+                    }
+                }
+            },
+            {
+                "text": "Lordi performing Hard Rock Hallelujah was the best thing that has ever happened to Eurovision.",
+                "emotions": {
+                    "love": {
+                        "love": -3,
+                        "goto": "3 tattoos"
+                    },
+                    "happy": {
+                        "love": -1,
+                        "goto": "3 tattoos"
+                    },
+                    "surprised": {
+                        "love": -1,
+                        "goto": "3 tattoos"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "3 tattoos"
+                    },
+                    "angry": {
+                        "love": 1,
+                        "goto": "3 tattoos"
+                    },
+                    "sad": {
+                        "love": 3,
+                        "goto": "3 tattoos"
+                    }
+                }
+            },
+            {
+                "text": "I don't watch Eurovision…",
+                "emotions": {
+                    "love": {
+                        "love": -3,
+                        "goto": "3 tattoos"
+                    },
+                    "happy": {
+                        "love": 1,
+                        "goto": "3 tattoos"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "3 tattoos"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "3 tattoos"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "3 tattoos"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "3 tattoos"
+                    }
+                }
+            }
+        ]
+    },
+    "3 tattoos": {
+        "question": "Have you got any tattoos? What do they signify?",
+        "answers": [
+            {
+                "text": "I have a few minimal tattoos that are very personal to me",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "4 Myers-Briggs"
+                    },
+                    "happy": {
+                        "love": 5,
+                        "goto": "4 Myers-Briggs"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "4 Myers-Briggs"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "4 Myers-Briggs"
+                    },
+                    "angry": {
+                        "love": 3,
+                        "goto": "4 Myers-Briggs"
+                    },
+                    "sad": {
+                        "love": 1,
+                        "goto": "4 Myers-Briggs"
+                    }
+                }
+            },
+            {
+                "text": "I have a butterfly tramp stamp.",
+                "emotions": {
+                    "love": {
+                        "love": -3,
+                        "goto": "4 Myers-Briggs"
+                    },
+                    "happy": {
+                        "love": -1,
+                        "goto": "4 Myers-Briggs"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "4 Myers-Briggs"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "4 Myers-Briggs"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "4 Myers-Briggs"
+                    },
+                    "sad": {
+                        "love": -3,
+                        "goto": "4 Myers-Briggs"
+                    }
+                }
+            },
+            {
+                "text": "My whole back is dedicated to Cher.",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "4 Myers-Briggs"
+                    },
+                    "happy": {
+                        "love": -1,
+                        "goto": "4 Myers-Briggs"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "4 Myers-Briggs"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "4 Myers-Briggs"
+                    },
+                    "angry": {
+                        "love": 1,
+                        "goto": "4 Myers-Briggs"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "4 Myers-Briggs"
+                    }
+                }
+            },
+            {
+                "text": "I don't have any tattoos.",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "4 Myers-Briggs"
+                    },
+                    "happy": {
+                        "love": 1,
+                        "goto": "4 Myers-Briggs"
+                    },
+                    "surprised": {
+                        "love": 3,
+                        "goto": "4 Myers-Briggs"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "4 Myers-Briggs"
+                    },
+                    "angry": {
+                        "love": 3,
+                        "goto": "4 Myers-Briggs"
+                    },
+                    "sad": {
+                        "love": 5,
+                        "goto": "4 Myers-Briggs"
+                    }
+                }
+            }
+        ]
+    },
+    "4 Myers-Briggs": {
+        "question": "What's your Myers-Briggs personality type?",
+        "answers": [
+            {
+                "text": "Sorry, I'm not interested in Psychology.",
+                "emotions": {
+                    "love": {
+                        "love": 3,
+                        "goto": "5 true calling"
+                    },
+                    "happy": {
+                        "love": 5,
+                        "goto": "5 true calling"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "5 true calling"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "5 true calling"
+                    },
+                    "angry": {
+                        "love": 3,
+                        "goto": "5 true calling"
+                    },
+                    "sad": {
+                        "love": 1,
+                        "goto": "5 true calling"
+                    }
+                }
+            },
+            {
+                "text": "I'm an INTJ.",
+                "emotions": {
+                    "love": {
+                        "love": -3,
+                        "goto": "5 true calling"
+                    },
+                    "happy": {
+                        "love": -1,
+                        "goto": "5 true calling"
+                    },
+                    "surprised": {
+                        "love": -1,
+                        "goto": "5 true calling"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "5 true calling"
+                    },
+                    "angry": {
+                        "love": 1,
+                        "goto": "5 true calling"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "5 true calling"
+                    }
+                }
+            },
+            {
+                "text": "I'm an ESFP.",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "5 true calling"
+                    },
+                    "happy": {
+                        "love": 3,
+                        "goto": "5 true calling"
+                    },
+                    "surprised": {
+                        "love": 3,
+                        "goto": "5 true calling"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "5 true calling"
+                    },
+                    "angry": {
+                        "love": 1,
+                        "goto": "5 true calling"
+                    },
+                    "sad": {
+                        "love": 1,
+                        "goto": "5 true calling"
+                    }
+                }
+            },
+            {
+                "text": "Oh I forgot, maybe we could do the test together?",
+                "emotions": {
+                    "love": {
+                        "love": -1,
+                        "goto": "5 true calling"
+                    },
+                    "happy": {
+                        "love": -3,
+                        "goto": "5 true calling"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "5 true calling"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "5 true calling"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "5 true calling"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "5 true calling"
+                    }
+                }
+            }
+        ]
+    },
+    "5 true calling": {
+        "question": "At what age did you know your true calling and what do you aspire to be in terms of your career?",
+        "answers": [
+            {
+                "text": "I was 5 when I knew that I was destined to become an olympic gymnast.",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "6 best surprise"
+                    },
+                    "happy": {
+                        "love": 1,
+                        "goto": "6 best surprise"
+                    },
+                    "surprised": {
+                        "love": 3,
+                        "goto": "6 best surprise"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "6 best surprise"
+                    },
+                    "angry": {
+                        "love": 5,
+                        "goto": "6 best surprise"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "6 best surprise"
+                    }
+                }
+            },
+            {
+                "text": "I'm still not sure what I'm meant to be, but maybe I should be with you?",
+                "emotions": {
+                    "love": {
+                        "love": -3,
+                        "goto": "6 best surprise"
+                    },
+                    "happy": {
+                        "love": -1,
+                        "goto": "6 best surprise"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "6 best surprise"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "6 best surprise"
+                    },
+                    "angry": {
+                        "love": -3,
+                        "goto": "6 best surprise"
+                    },
+                    "sad": {
+                        "love": 1,
+                        "goto": "6 best surprise"
+                    }
+                }
+            },
+            {
+                "text": "I recently understood that I just want to chill and vibe.",
+                "emotions": {
+                    "love": {
+                        "love": -1,
+                        "goto": "6 best surprise"
+                    },
+                    "happy": {
+                        "love": -3,
+                        "goto": "6 best surprise"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "6 best surprise"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "6 best surprise"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "6 best surprise"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "6 best surprise"
+                    }
+                }
+            },
+            {
+                "text": "In high school I decided that I want to spend my life fighting for the underdogs.",
+                "emotions": {
+                    "love": {
+                        "love": 3,
+                        "goto": "6 best surprise"
+                    },
+                    "happy": {
+                        "love": 5,
+                        "goto": "6 best surprise"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "6 best surprise"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "6 best surprise"
+                    },
+                    "angry": {
+                        "love": 3,
+                        "goto": "6 best surprise"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "6 best surprise"
+                    }
+                }
+            }
+        ]
+    },
+    "6 best surprise": {
+        "question": "What's the best surprise you've ever received?",
+        "answers": [
+            {
+                "text": "My friends once threw me a surprise birthday party.",
+                "emotions": {
+                    "love": {
+                        "love": -3,
+                        "goto": "7 byee"
+                    },
+                    "happy": {
+                        "love": -3,
+                        "goto": "7 byee"
+                    },
+                    "surprised": {
+                        "love": -1,
+                        "goto": "7 byee"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "7 byee"
+                    },
+                    "angry": {
+                        "love": 1,
+                        "goto": "7 byee"
+                    },
+                    "sad": {
+                        "love": 1,
+                        "goto": "7 byee"
+                    }
+                }
+            },
+            {
+                "text": "That's a loaded question, I have no idea.",
+                "emotions": {
+                    "love": {
+                        "love": 5,
+                        "goto": "7 byee"
+                    },
+                    "happy": {
+                        "love": 3,
+                        "goto": "7 byee"
+                    },
+                    "surprised": {
+                        "love": 3,
+                        "goto": "7 byee"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "7 byee"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "7 byee"
+                    },
+                    "sad": {
+                        "love": -3,
+                        "goto": "7 byee"
+                    }
+                }
+            },
+            {
+                "text": "My ex asked me to marry him.",
+                "emotions": {
+                    "love": {
+                        "love": 3,
+                        "goto": "7 byee"
+                    },
+                    "happy": {
+                        "love": 1,
+                        "goto": "7 byee"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "7 byee"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "7 byee"
+                    },
+                    "angry": {
+                        "love": 1,
+                        "goto": "7 byee"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "7 byee"
+                    }
+                }
+            },
+            {
+                "text": "Ukraine's 2007 Eurovision Performance.",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "7 byee"
+                    },
+                    "happy": {
+                        "love": 3,
+                        "goto": "7 byee"
+                    },
+                    "surprised": {
+                        "love": 5,
+                        "goto": "7 byee"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "7 byee"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "7 byee"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "7 byee"
+                    }
+                }
+            }
+        ]
+    },
+    "7 byee": {
+        "question": "",
+        "answers": [
+            {
+                "text": "Bye.",
+                "emotions": {
+                    "love": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "happy": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "surprised": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "uwu": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "angry": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "sad": {
+                        "love": 0,
+                        "goto": "end"
+                    }
+                }
+            },
+            {
+                "text": "Bye.",
+                "emotions": {
+                    "love": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "happy": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "surprised": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "uwu": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "angry": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "sad": {
+                        "love": 0,
+                        "goto": "end"
+                    }
+                }
+            },
+            {
+                "text": "Bye.",
+                "emotions": {
+                    "love": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "happy": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "surprised": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "uwu": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "angry": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "sad": {
+                        "love": 0,
+                        "goto": "end"
+                    }
+                }
+            },
+            {
+                "text": "Bye.",
+                "emotions": {
+                    "love": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "happy": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "surprised": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "uwu": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "angry": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "sad": {
+                        "love": 0,
+                        "goto": "end"
+                    }
+                }
+            }
+        ]
+    }
+}
