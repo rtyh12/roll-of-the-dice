@@ -46,8 +46,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   json: {fileID: 4900000, guid: 4551a2f39b6646d4aa0de86d04245bb5, type: 3}
   love: 0
-  currentNode: are you dice
+  lastLoveChange: 0
+  currentNode: 1 are you dice
   rollScript: {fileID: 0}
   timeSinceYeetEnd: 0
   timeSinceYeetEndTimerStopped: 1
-  switchDialogGUITextDelay: 1
+  switchDialogGUITextDelay: 1.5
+  questionText: {fileID: 0}
+  answerText: {fileID: 0}
+  button0: {fileID: 0}
+  button1: {fileID: 0}
+  button2: {fileID: 0}
+  button3: {fileID: 0}
+  heartImage: {fileID: 0}
+  loveChangeScript: {fileID: 0}
