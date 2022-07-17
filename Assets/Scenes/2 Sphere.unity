@@ -1855,6 +1855,7 @@ GameObject:
   - component: {fileID: 1227792713}
   - component: {fileID: 1227792715}
   - component: {fileID: 1227792714}
+  - component: {fileID: 1227792716}
   m_Layer: 5
   m_Name: Love Change
   m_TagString: Untagged
@@ -1979,6 +1980,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1227792712}
   m_CullTransparentMesh: 1
+--- !u!114 &1227792716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227792712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77b0e87f43522ea46945460094707f62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start: -20
+  end: 100
+  duration: 1
+  startAlpha: 3
+  endAlpha: 0
+  durationAlpha: 1
+  colorInitial: {r: 0, g: 0, b: 0, a: 0}
+  rectTransform: {fileID: 1227792713}
+  textMeshPro: {fileID: 1227792714}
 --- !u!1001 &1307553925
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2102,6 +2124,10 @@ PrefabInstance:
       propertyPath: questionText
       value: 
       objectReference: {fileID: 1138152332}
+    - target: {fileID: 6518940941606608897, guid: ad3e671d50705ef4b99bd414ec7a2a4f, type: 3}
+      propertyPath: loveChangeScript
+      value: 
+      objectReference: {fileID: 1227792716}
     - target: {fileID: 6518940941606608898, guid: ad3e671d50705ef4b99bd414ec7a2a4f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

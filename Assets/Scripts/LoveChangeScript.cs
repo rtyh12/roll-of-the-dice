@@ -20,9 +20,12 @@ public class LoveChangeScript : MonoBehaviour
     public TextMeshProUGUI textMeshPro;
 
     [ContextMenu("TriggerAnimation")]
-    void TriggerAnimation(string value)
+    public void TriggerAnimation(int value)
     {
-        textMeshPro.text = value;
+        string strValue = value.ToString();
+        if (strValue[0] != '-')
+            strValue = '+' + strValue;
+        textMeshPro.text = strValue;
         time = 0;
     }
 
@@ -35,5 +38,12 @@ public class LoveChangeScript : MonoBehaviour
                                                   current,
                                                   rectTransform.localPosition.z);
         textMeshPro.alpha = ((time / durationAlpha) * endAlpha) + ((1 - (time / durationAlpha)) * startAlpha);
+    }
+
+    void Start() {
+        textMeshPro.alpha = 0;
+        // rectTransform.localPosition = new Vector3(rectTransform.localPosition.x,
+        //                                           10000,
+        //                                           rectTransform.localPosition.z);
     }
 }

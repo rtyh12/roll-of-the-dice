@@ -28,13 +28,15 @@ public class StateManager : MonoBehaviour
     public Button button2;
     public Button button3;
     public Image heartImage;
+    public LoveChangeScript loveChangeScript;
 
     static float Remap(float value, float from1, float to1, float from2, float to2)
     {
         return (value - from1) / (to1 - from1) * (to2 - from2) + from2;
     }
 
-    void GoToNextDate() {
+    void GoToNextDate()
+    {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
@@ -59,11 +61,14 @@ public class StateManager : MonoBehaviour
         try
         {
             SwitchPlayerAnswerGUIText(option);
-            love += sceneJson[currentNode]["answers"][option]["emotions"][emotion]["love"];
+            int loveChange = sceneJson[currentNode]["answers"][option]["emotions"][emotion]["love"];
+            love += loveChange;
+            lastLoveChange = loveChange;
             StatsManager.setLoveScore(love);
-            
+
             currentNode = sceneJson[currentNode]["answers"][option]["emotions"][emotion]["goto"];
-            if (currentNode == "end") {
+            if (currentNode == "end")
+            {
                 GoToNextDate();
                 return;
             }
@@ -81,8 +86,13 @@ public class StateManager : MonoBehaviour
         Debug.Log("Player says \"" + playerText + "\"");
     }
 
-    void SwitchDialogGUIText()
+    void SwitchDialogGUIText(bool dontTriggerLoveChangeAnimation = false)
     {
+        heartImage.fillAmount = Remap((float)love, -18f, 30f, 0f, 1f);
+
+        if (!dontTriggerLoveChangeAnimation)
+            loveChangeScript.TriggerAnimation(lastLoveChange);
+
         var question = sceneJson[currentNode]["question"];
         var answersJson = sceneJson[currentNode]["answers"];
         var answers = new List<string>();
@@ -105,8 +115,6 @@ public class StateManager : MonoBehaviour
 
     void Update()
     {
-        heartImage.fillAmount = Remap((float)love, -18f, 30f, 0f, 1f);
-
         if (!timeSinceYeetEndTimerStopped)
             timeSinceYeetEnd += Time.deltaTime;
 
@@ -129,6 +137,6 @@ public class StateManager : MonoBehaviour
     {
         sceneJson = JSON.Parse(json.ToString());
         love = StatsManager.getLoveScore();
-        SwitchDialogGUIText();
+        SwitchDialogGUIText(dontTriggerLoveChangeAnimation: true);
     }
 }
