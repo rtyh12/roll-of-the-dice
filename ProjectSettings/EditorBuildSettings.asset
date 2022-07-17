@@ -15,9 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/SettingsMenu.unity
     guid: da7b23ffc4882ba4f8720caa0c1cd6ea
   - enabled: 1
-    path: Assets/Scenes/Sphere.unity
-    guid: b16fb472c8d7c944192b275d98af045a
+    path: Assets/Scenes/Sphere2.unity
+    guid: 5d169a89aa70d1140a4b65588b86f676
   - enabled: 1
     path: Assets/Scenes/Cone.unity
     guid: 53034e02d9a1b6f4782e6222441a6992
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 7b8b3925d82c23944bec7780897bf488
   m_configObjects: {}
