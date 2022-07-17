@@ -51,7 +51,7 @@ MonoBehaviour:
   rollScript: {fileID: 0}
   timeSinceYeetEnd: 0
   timeSinceYeetEndTimerStopped: 1
-  switchDialogGUITextDelay: 1.5
+  switchDialogGUITextDelay: 0.2
   questionText: {fileID: 0}
   answerText: {fileID: 0}
   button0: {fileID: 0}
