@@ -209,7 +209,7 @@ MonoBehaviour:
   yeetTime: 0.16
   stoppedTime: 10000
   currentFace: 0
-  forceFace: 1
+  forceFace: 0
   forceFaceNumber: 1
   yeetDistance: 1.22
   audioSource: {fileID: 1990591138401412026}

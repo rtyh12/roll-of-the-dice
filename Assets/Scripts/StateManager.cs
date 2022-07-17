@@ -58,7 +58,7 @@ public class StateManager : MonoBehaviour
         }
         catch
         {
-            Debug.Log("DIALOG MISSING");
+            Debug.LogError("DIALOG MISSING");
         }
 
     }
@@ -92,9 +92,7 @@ public class StateManager : MonoBehaviour
 
     void Update()
     {
-        // -18, 30  ->  0, 100
         heartImage.fillAmount = Remap((float)love, -18f, 30f, 0f, 1f);
-        Debug.Log(Remap((float)love, -18f, 30f, 0f, 1f));
 
         if (!timeSinceYeetEndTimerStopped)
             timeSinceYeetEnd += Time.deltaTime;
