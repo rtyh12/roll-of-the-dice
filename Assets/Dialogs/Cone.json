@@ -14,7 +14,7 @@
                         "goto": "2 followers"
                     },
                     "surprised": {
-                        "love": 1,
+                        "love": -1,
                         "goto": "2 followers"
                     },
                     "uwu": {
@@ -22,7 +22,7 @@
                         "goto": "2 followers"
                     },
                     "angry": {
-                        "love": -1,
+                        "love": -3,
                         "goto": "2 followers"
                     },
                     "sad": {
@@ -39,7 +39,7 @@
                         "goto": "2 followers"
                     },
                     "happy": {
-                        "love": 3,
+                        "love": 5,
                         "goto": "2 followers"
                     },
                     "surprised": {
@@ -51,7 +51,7 @@
                         "goto": "2 followers"
                     },
                     "angry": {
-                        "love": 1,
+                        "love": -3,
                         "goto": "2 followers"
                     },
                     "sad": {
@@ -131,7 +131,7 @@
                         "goto": "3 personal brand"
                     },
                     "happy": {
-                        "love": -1,
+                        "love": -3,
                         "goto": "3 personal brand"
                     },
                     "surprised": {
@@ -156,7 +156,7 @@
                 "text": "Only people I know irl follow me online.",
                 "emotions": {
                     "love": {
-                        "love": 1,
+                        "love": -3,
                         "goto": "3 personal brand"
                     },
                     "happy": {
@@ -164,11 +164,11 @@
                         "goto": "3 personal brand"
                     },
                     "surprised": {
-                        "love": 3,
+                        "love": -1,
                         "goto": "3 personal brand"
                     },
                     "uwu": {
-                        "love": 3,
+                        "love": 1,
                         "goto": "3 personal brand"
                     },
                     "angry": {
@@ -189,7 +189,7 @@
                         "goto": "3 personal brand"
                     },
                     "happy": {
-                        "love": 3,
+                        "love": 5,
                         "goto": "3 personal brand"
                     },
                     "surprised": {
@@ -230,7 +230,7 @@
                         "goto": "3 personal brand"
                     },
                     "angry": {
-                        "love": 1,
+                        "love": -1,
                         "goto": "3 personal brand"
                     },
                     "sad": {
@@ -256,15 +256,15 @@
                         "goto": "4 photogenic"
                     },
                     "surprised": {
-                        "love": 3,
+                        "love": -1,
                         "goto": "4 photogenic"
                     },
                     "uwu": {
-                        "love": 5,
+                        "love": 1,
                         "goto": "4 photogenic"
                     },
                     "angry": {
-                        "love": 1,
+                        "love": -3,
                         "goto": "4 photogenic"
                     },
                     "sad": {
@@ -322,7 +322,7 @@
                         "goto": "4 photogenic"
                     },
                     "angry": {
-                        "love": -3,
+                        "love": -1,
                         "goto": "4 photogenic"
                     },
                     "sad": {
@@ -343,11 +343,11 @@
                         "goto": "4 photogenic"
                     },
                     "surprised": {
-                        "love": 5,
+                        "love": 1,
                         "goto": "4 photogenic"
                     },
                     "uwu": {
-                        "love": 1,
+                        "love": -1,
                         "goto": "4 photogenic"
                     },
                     "angry": {
@@ -373,7 +373,7 @@
                         "goto": "5 travel"
                     },
                     "happy": {
-                        "love": 3,
+                        "love": 1,
                         "goto": "5 travel"
                     },
                     "surprised": {
@@ -435,7 +435,7 @@
                         "goto": "5 travel"
                     },
                     "surprised": {
-                        "love": 1,
+                        "love": -1,
                         "goto": "5 travel"
                     },
                     "uwu": {
@@ -577,7 +577,7 @@
                 "text": "Anywhere expensive.",
                 "emotions": {
                     "love": {
-                        "love": 5,
+                        "love": 3,
                         "goto": "6 zodiac"
                     },
                     "happy": {
@@ -677,7 +677,7 @@
                         "goto": "7 byee"
                     },
                     "surprised": {
-                        "love": 5,
+                        "love": 3,
                         "goto": "7 byee"
                     },
                     "uwu": {

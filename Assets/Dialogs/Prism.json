@@ -218,11 +218,11 @@
                         "goto": "3 tattoos"
                     },
                     "happy": {
-                        "love": -1,
+                        "love": -3,
                         "goto": "3 tattoos"
                     },
                     "surprised": {
-                        "love": -1,
+                        "love": -3,
                         "goto": "3 tattoos"
                     },
                     "uwu": {
@@ -230,11 +230,11 @@
                         "goto": "3 tattoos"
                     },
                     "angry": {
-                        "love": 1,
+                        "love": -3,
                         "goto": "3 tattoos"
                     },
                     "sad": {
-                        "love": 1,
+                        "love": -3,
                         "goto": "3 tattoos"
                     }
                 }
@@ -264,7 +264,7 @@
                         "goto": "4 Myers-Briggs"
                     },
                     "angry": {
-                        "love": 1,
+                        "love": -1,
                         "goto": "4 Myers-Briggs"
                     },
                     "sad": {
@@ -289,7 +289,7 @@
                         "goto": "4 Myers-Briggs"
                     },
                     "uwu": {
-                        "love": 5,
+                        "love": 1,
                         "goto": "4 Myers-Briggs"
                     },
                     "angry": {
@@ -355,7 +355,7 @@
                         "goto": "4 Myers-Briggs"
                     },
                     "sad": {
-                        "love": 3,
+                        "love": 1,
                         "goto": "4 Myers-Briggs"
                     }
                 }
@@ -385,7 +385,7 @@
                         "goto": "5 true calling"
                     },
                     "angry": {
-                        "love": 1,
+                        "love": -3,
                         "goto": "5 true calling"
                     },
                     "sad": {
@@ -685,11 +685,11 @@
                         "goto": "7 byee"
                     },
                     "angry": {
-                        "love": 5,
+                        "love": 1,
                         "goto": "7 byee"
                     },
                     "sad": {
-                        "love": 3,
+                        "love": -1,
                         "goto": "7 byee"
                     }
                 }
