@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using SimpleJSON;
+using UnityEngine.SceneManagement;
 
 public class StateManager : MonoBehaviour
 {
@@ -90,6 +91,7 @@ public class StateManager : MonoBehaviour
         timeSinceYeetEndTimerStopped = false;
     }
 
+
     void Update()
     {
         heartImage.fillAmount = Remap((float)love, -18f, 30f, 0f, 1f);
@@ -115,6 +117,7 @@ public class StateManager : MonoBehaviour
     void Start()
     {
         sceneJson = JSON.Parse(json.ToString());
+        love = StatsManager.getLoveScore();
         SwitchDialogGUIText();
     }
 }

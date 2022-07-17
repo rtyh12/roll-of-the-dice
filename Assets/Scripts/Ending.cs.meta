@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: b3b77e82a886064479e817adb099ebf0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - textMesh: {instanceID: 0}
+  - placeHolder: {fileID: 2310083518573943452, guid: 19f2cdc032af1d04db091cd3bd2f8020, type: 3}
+  - sphere: {fileID: 2310083518573943452, guid: 19f2cdc032af1d04db091cd3bd2f8020, type: 3}
+  - D20: {instanceID: 0}
+  - plane: {instanceID: 0}
+  - cone: {instanceID: 0}
+  - moebius: {instanceID: 0}
+  - prism: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
