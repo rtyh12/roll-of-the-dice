@@ -18,6 +18,21 @@ EditorBuildSettings:
     path: Assets/Scenes/2 Sphere.unity
     guid: 5d169a89aa70d1140a4b65588b86f676
   - enabled: 1
+    path: Assets/Scenes/3 D20.unity
+    guid: 59b27db42be64ce499b311e890863e46
+  - enabled: 1
+    path: Assets/Scenes/4 Plane.unity
+    guid: f1c9785839f6d26499626a222d1e924c
+  - enabled: 1
+    path: Assets/Scenes/5 Prism.unity
+    guid: 512fb4169e39d3c4385537ea553570c6
+  - enabled: 1
+    path: Assets/Scenes/6 Cone.unity
+    guid: ae1d61a84be9176459e203433ea00b3b
+  - enabled: 1
+    path: Assets/Scenes/7 Morbius.unity
+    guid: 382a9c8c39d995c41a06626a080e1c15
+  - enabled: 1
     path: Assets/Scenes/Ending.unity
     guid: 7b8b3925d82c23944bec7780897bf488
   m_configObjects: {}

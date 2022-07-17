@@ -16,12 +16,12 @@ public static class StatsManager
 
     public static void setLoveScore(int newLoveScore)
     {
-        loveScores[SceneManager.GetActiveScene().buildIndex - 2] = newLoveScore;
+        loveScores[SceneManager.GetActiveScene().buildIndex - 3] = newLoveScore;
     }
 
     public static int getLoveScore()
     {
-        return loveScores[SceneManager.GetActiveScene().buildIndex - 2];
+        return loveScores[SceneManager.GetActiveScene().buildIndex - 3];
     }
 
     public static int getWinnerID()
