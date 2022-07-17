@@ -205,7 +205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   time: 0
   rotationTimeScale: 600
-  rotatingTime: 2.5
+  rotatingTime: 0.5
   yeetTime: 0.16
   stoppedTime: 10000
   currentFace: 0

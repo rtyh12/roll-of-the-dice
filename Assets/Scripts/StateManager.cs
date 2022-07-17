@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using SimpleJSON;
+using UnityEngine.SceneManagement;
 
 public class StateManager : MonoBehaviour
 {
@@ -32,6 +33,10 @@ public class StateManager : MonoBehaviour
         return (value - from1) / (to1 - from1) * (to2 - from2) + from2;
     }
 
+    void GoToNextDate() {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
     public void ChooseDialogOption(int option)
     {
         Debug.Log("Player chooses answer no. " + option);
@@ -53,8 +58,14 @@ public class StateManager : MonoBehaviour
         try
         {
             SwitchPlayerAnswerGUIText(option);
-            currentNode = sceneJson[currentNode]["answers"][option]["emotions"][emotion]["goto"];
             love += sceneJson[currentNode]["answers"][option]["emotions"][emotion]["love"];
+            StatsManager.setLoveScore(love);
+            
+            currentNode = sceneJson[currentNode]["answers"][option]["emotions"][emotion]["goto"];
+            if (currentNode == "end") {
+                GoToNextDate();
+                return;
+            }
         }
         catch
         {
@@ -90,6 +101,7 @@ public class StateManager : MonoBehaviour
         timeSinceYeetEndTimerStopped = false;
     }
 
+
     void Update()
     {
         heartImage.fillAmount = Remap((float)love, -18f, 30f, 0f, 1f);
@@ -115,6 +127,7 @@ public class StateManager : MonoBehaviour
     void Start()
     {
         sceneJson = JSON.Parse(json.ToString());
+        love = StatsManager.getLoveScore();
         SwitchDialogGUIText();
     }
 }
