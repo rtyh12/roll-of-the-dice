@@ -33,6 +33,10 @@ public class StateManager : MonoBehaviour
         return (value - from1) / (to1 - from1) * (to2 - from2) + from2;
     }
 
+    void GoToNextDate() {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
     public void ChooseDialogOption(int option)
     {
         Debug.Log("Player chooses answer no. " + option);
@@ -54,8 +58,14 @@ public class StateManager : MonoBehaviour
         try
         {
             SwitchPlayerAnswerGUIText(option);
-            currentNode = sceneJson[currentNode]["answers"][option]["emotions"][emotion]["goto"];
             love += sceneJson[currentNode]["answers"][option]["emotions"][emotion]["love"];
+            StatsManager.setLoveScore(love);
+            
+            currentNode = sceneJson[currentNode]["answers"][option]["emotions"][emotion]["goto"];
+            if (currentNode == "end") {
+                GoToNextDate();
+                return;
+            }
         }
         catch
         {
