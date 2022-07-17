@@ -484,7 +484,7 @@
         ]
     },
     "5 after death": {
-        "question": "It’s definitely not as cool as my life… But if that’s the way you live, what about death? What do you think happens after we Die?",
+        "question": "It's definitely not as cool as my life… But if that's the way you live, what about death? What do you think happens after we Die?",
         "answers": [
             {
                 "text": "We all roll into heaven.",
@@ -516,7 +516,7 @@
                 }
             },
             {
-                "text": "I’m not sure but I hope I get reborn as something cool.",
+                "text": "I'm not sure but I hope I get reborn as something cool.",
                 "emotions": {
                     "love": {
                         "love": -1,
@@ -574,7 +574,7 @@
                 }
             },
             {
-                "text": "I don’t really think about these things.",
+                "text": "I don't really think about these things.",
                 "emotions": {
                     "love": {
                         "love": 1,
