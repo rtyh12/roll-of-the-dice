@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
@@ -42,8 +40,5 @@ public class LoveChangeScript : MonoBehaviour
 
     void Start() {
         textMeshPro.alpha = 0;
-        // rectTransform.localPosition = new Vector3(rectTransform.localPosition.x,
-        //                                           10000,
-        //                                           rectTransform.localPosition.z);
     }
 }

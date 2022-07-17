@@ -89,6 +89,11 @@ public class StateManager : MonoBehaviour
         button2.GetComponentInChildren<TextMeshProUGUI>().alpha = 0;
         button3.GetComponentInChildren<TextMeshProUGUI>().alpha = 0;
 
+        button0.interactable = false;
+        button1.interactable = false;
+        button2.interactable = false;
+        button3.interactable = false;
+
         // HACK UGH
         if (option == 0)
             button0.GetComponentInChildren<TextMeshProUGUI>().alpha = 1;
@@ -104,11 +109,6 @@ public class StateManager : MonoBehaviour
 
     void SwitchDialogGUIText(bool dontTriggerLoveChangeAnimation = false)
     {
-        heartImage.fillAmount = Remap((float)love, -18f, 30f, 0f, 1f);
-
-        if (!dontTriggerLoveChangeAnimation)
-            loveChangeScript.TriggerAnimation(lastLoveChange);
-
         var question = sceneJson[currentNode]["question"];
         var answersJson = sceneJson[currentNode]["answers"];
         var answers = new List<string>();
@@ -126,10 +126,18 @@ public class StateManager : MonoBehaviour
         button1.GetComponentInChildren<TextMeshProUGUI>().text = answers[1];
         button2.GetComponentInChildren<TextMeshProUGUI>().text = answers[2];
         button3.GetComponentInChildren<TextMeshProUGUI>().text = answers[3];
+
+        button0.interactable = true;
+        button1.interactable = true;
+        button2.interactable = true;
+        button3.interactable = true;
     }
 
     public void MessageDiceStopped()
     {
+        heartImage.fillAmount = Remap((float)love, -18f, 30f, 0f, 1f);
+        loveChangeScript.TriggerAnimation(lastLoveChange);
+
         timeSinceYeetEnd = 0;
         timeSinceYeetEndTimerStopped = false;
     }
