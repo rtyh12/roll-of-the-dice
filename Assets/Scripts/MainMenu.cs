@@ -7,6 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayButton()
     {
+        StatsManager.resetLoveScores();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 
