@@ -1954,6 +1954,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1990591138401412022, guid: ad3e671d50705ef4b99bd414ec7a2a4f, type: 3}
+      propertyPath: rotatingTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1990591138401412026, guid: ad3e671d50705ef4b99bd414ec7a2a4f, type: 3}
       propertyPath: OutputAudioMixerGroup
       value: 

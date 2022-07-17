@@ -9,31 +9,16 @@ public class Ending : MonoBehaviour
     public TextMeshProUGUI textMesh;
 
     public GameObject placeholder;
-    public GameObject sphere;
-    public GameObject D20;
-    public GameObject plane;
-    public GameObject cone;
-    public GameObject moebius;
-    public GameObject prism;
 
+    public List<GameObject> prefabs = new List<GameObject>();
+    public List<string> names = new List<string>();
 
     private string text = "Congratulations! You scored a second date with ";
 
-    // Start is called before the first frame update
     void Start()
     {
         int winner = StatsManager.getWinnerID();
-        if (winner == 0)
-        {
-            text = text + "Sphere";
-            textMesh.text = text;
-            Instantiate(sphere,placeholder.transform);
-        }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        textMesh.text = text + names[winner];
+        Instantiate(prefabs[winner], placeholder.transform);
     }
 }

@@ -484,12 +484,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textMesh: {fileID: 1138152332}
   placeholder: {fileID: 861367930}
-  sphere: {fileID: 2310083518573943452, guid: 19f2cdc032af1d04db091cd3bd2f8020, type: 3}
-  D20: {fileID: 0}
-  plane: {fileID: 0}
-  cone: {fileID: 0}
-  moebius: {fileID: 0}
-  prism: {fileID: 0}
+  prefabs:
+  - {fileID: 2310083518573943452, guid: 19f2cdc032af1d04db091cd3bd2f8020, type: 3}
+  - {fileID: 6818429040601175175, guid: 649a8ae775598484192a84f60d00e080, type: 3}
+  - {fileID: 6818429040601175175, guid: 35a8a8e5fa1d5e64cb97423b6d018b7d, type: 3}
+  - {fileID: 6818429040601175175, guid: 35a8a8e5fa1d5e64cb97423b6d018b7d, type: 3}
+  - {fileID: 7996485922482958724, guid: 4cb50a7ef5150ee4eb80a54b7acd1f9d, type: 3}
+  - {fileID: 5438062618016838069, guid: af3ebdc60e31afb499f6b9af383f3689, type: 3}
+  names:
+  - Sphere
+  - D20
+  - Plane
+  - Prism
+  - Cone
+  - Morbius
 --- !u!4 &861367932
 Transform:
   m_ObjectHideFlags: 0
