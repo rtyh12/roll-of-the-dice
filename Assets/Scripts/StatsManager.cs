@@ -26,11 +26,11 @@ public static class StatsManager
 
     public static int getWinnerID()
     {
-        int id = 0;
+        int maxIndex = 0;
         for (int i = 1; i < loveScores.Count; i++)
         {
-            if (loveScores[i] > id) { id = i; }
+            if (loveScores[i] > loveScores[maxIndex]) { maxIndex = i; }
         }
-        return id;
+        return maxIndex;
     }
 }
