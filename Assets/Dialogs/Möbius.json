@@ -10,7 +10,7 @@
                         "goto": "2 philosophy"
                     },
                     "happy": {
-                        "love": 3,
+                        "love": 1,
                         "goto": "2 philosophy"
                     },
                     "surprised": {
@@ -64,7 +64,7 @@
                 "text": "A small village in the countryside.",
                 "emotions": {
                     "love": {
-                        "love": 5,
+                        "love": 1,
                         "goto": "2 philosophy"
                     },
                     "happy": {
@@ -127,11 +127,11 @@
                 "text": "Well it all started with the big bang…",
                 "emotions": {
                     "love": {
-                        "love": 1,
+                        "love": -1,
                         "goto": "3 universe"
                     },
                     "happy": {
-                        "love": 3,
+                        "love": -3,
                         "goto": "3 universe"
                     },
                     "surprised": {
@@ -139,7 +139,7 @@
                         "goto": "3 universe"
                     },
                     "uwu": {
-                        "love": 3,
+                        "love": 1,
                         "goto": "3 universe"
                     },
                     "angry": {
@@ -189,11 +189,11 @@
                         "goto": "3 universe"
                     },
                     "happy": {
-                        "love": 3,
+                        "love": -3,
                         "goto": "3 universe"
                     },
                     "surprised": {
-                        "love": 5,
+                        "love": -1,
                         "goto": "3 universe"
                     },
                     "uwu": {
@@ -201,7 +201,7 @@
                         "goto": "3 universe"
                     },
                     "angry": {
-                        "love": 1,
+                        "love": 3,
                         "goto": "3 universe"
                     },
                     "sad": {
@@ -230,11 +230,11 @@
                         "goto": "3 universe"
                     },
                     "angry": {
-                        "love": -1,
+                        "love": 3,
                         "goto": "3 universe"
                     },
                     "sad": {
-                        "love": 1,
+                        "love": 3,
                         "goto": "3 universe"
                     }
                 }
@@ -264,7 +264,7 @@
                         "goto": "4 hungry"
                     },
                     "angry": {
-                        "love": -1,
+                        "love": 1,
                         "goto": "4 hungry"
                     },
                     "sad": {
@@ -297,7 +297,7 @@
                         "goto": "4 hungry"
                     },
                     "sad": {
-                        "love": -1,
+                        "love": -3,
                         "goto": "4 hungry"
                     }
                 }
@@ -306,7 +306,7 @@
                 "text": "WOAH!",
                 "emotions": {
                     "love": {
-                        "love": 5,
+                        "love": 3,
                         "goto": "4 hungry"
                     },
                     "happy": {
@@ -335,19 +335,19 @@
                 "text": "About 93 billion light years.",
                 "emotions": {
                     "love": {
-                        "love": 3,
+                        "love": 1,
                         "goto": "4 hungry"
                     },
                     "happy": {
-                        "love": 1,
+                        "love": -3,
                         "goto": "4 hungry"
                     },
                     "surprised": {
-                        "love": 1,
+                        "love": -1,
                         "goto": "4 hungry"
                     },
                     "uwu": {
-                        "love": 3,
+                        "love": -1,
                         "goto": "4 hungry"
                     },
                     "angry": {
@@ -373,7 +373,7 @@
                         "goto": "5 idiot"
                     },
                     "happy": {
-                        "love": 1,
+                        "love": -3,
                         "goto": "5 idiot"
                     },
                     "surprised": {
@@ -385,7 +385,7 @@
                         "goto": "5 idiot"
                     },
                     "angry": {
-                        "love": -1,
+                        "love": -3,
                         "goto": "5 idiot"
                     },
                     "sad": {
@@ -414,7 +414,7 @@
                         "goto": "5 idiot"
                     },
                     "angry": {
-                        "love": 1,
+                        "love": -1,
                         "goto": "5 idiot"
                     },
                     "sad": {
@@ -427,7 +427,7 @@
                 "text": "Yea, I could go for some dinner.",
                 "emotions": {
                     "love": {
-                        "love": 3,
+                        "love": 1,
                         "goto": "5 idiot"
                     },
                     "happy": {
@@ -447,7 +447,7 @@
                         "goto": "5 idiot"
                     },
                     "sad": {
-                        "love": 1,
+                        "love": -1,
                         "goto": "5 idiot"
                     }
                 }
@@ -460,11 +460,11 @@
                         "goto": "5 idiot"
                     },
                     "happy": {
-                        "love": 5,
+                        "love": 3,
                         "goto": "5 idiot"
                     },
                     "surprised": {
-                        "love": 5,
+                        "love": 3,
                         "goto": "5 idiot"
                     },
                     "uwu": {
@@ -487,7 +487,7 @@
         "question": "If you're an idiot but you know you're an idiot, you're already less of an idiot than an idiot that doesn't know they're an idiot.",
         "answers": [
             {
-                "text": "I'm feeling loopy ",
+                "text": "I'm feeling loopy",
                 "emotions": {
                     "love": {
                         "love": 1,
@@ -523,7 +523,7 @@
                         "goto": "6 question"
                     },
                     "happy": {
-                        "love": 5,
+                        "love": 3,
                         "goto": "6 question"
                     },
                     "surprised": {
@@ -545,7 +545,7 @@
                 }
             },
             {
-                "text": "But more importantly, you're an idiot",
+                "text": "But more importantly, you're an idiot.",
                 "emotions": {
                     "love": {
                         "love": 1,
@@ -564,24 +564,24 @@
                         "goto": "6 question"
                     },
                     "angry": {
-                        "love": -1,
+                        "love": -3,
                         "goto": "6 question"
                     },
                     "sad": {
-                        "love": -1,
+                        "love": -3,
                         "goto": "6 question"
                     }
                 }
             },
             {
-                "text": "If you turn around, are you inside out",
+                "text": "If you turn around, are you inside out?",
                 "emotions": {
                     "love": {
                         "love": 3,
                         "goto": "6 question"
                     },
                     "happy": {
-                        "love": 3,
+                        "love": 1,
                         "goto": "6 question"
                     },
                     "surprised": {
@@ -637,30 +637,30 @@
                 }
             },
             {
-                "text": "Yea man let's do it",
+                "text": "Hell no.",
                 "emotions": {
                     "love": {
-                        "love": 5,
+                        "love": -3,
                         "goto": "7 byee"
                     },
                     "happy": {
-                        "love": 5,
+                        "love": -1,
                         "goto": "7 byee"
                     },
                     "surprised": {
-                        "love": 5,
+                        "love": 1,
                         "goto": "7 byee"
                     },
                     "uwu": {
-                        "love": 5,
+                        "love": 1,
                         "goto": "7 byee"
                     },
                     "angry": {
-                        "love": -1,
+                        "love": -3,
                         "goto": "7 byee"
                     },
                     "sad": {
-                        "love": -1,
+                        "love": -3,
                         "goto": "7 byee"
                     }
                 }
@@ -673,7 +673,7 @@
                         "goto": "7 byee"
                     },
                     "happy": {
-                        "love": 5,
+                        "love": 3,
                         "goto": "7 byee"
                     },
                     "surprised": {
@@ -714,7 +714,7 @@
                         "goto": "7 byee"
                     },
                     "angry": {
-                        "love": -1,
+                        "love": -3,
                         "goto": "7 byee"
                     },
                     "sad": {
