@@ -1,0 +1,762 @@
+{
+    "1 I am Plane": {
+        "question": "Hello Die, I am Plane. I am here for our date. How are you today?",
+        "answers": [
+            {
+                "text": "I'm good, how are you?",
+                "emotions": {
+                    "love": {
+                        "love": -1,
+                        "goto": "2 weather"
+                    },
+                    "happy": {
+                        "love": 5,
+                        "goto": "2 weather"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "2 weather"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "2 weather"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "2 weather"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "2 weather"
+                    }
+                }
+            },
+            {
+                "text": "I'm fine but you look like a shadow of your former self! ",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "2 weather"
+                    },
+                    "happy": {
+                        "love": 1,
+                        "goto": "2 weather"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "2 weather"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "2 weather"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "2 weather"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "2 weather"
+                    }
+                }
+            },
+            {
+                "text": "I am not having a good day to be honest.",
+                "emotions": {
+                    "love": {
+                        "love": -1,
+                        "goto": "2 weather"
+                    },
+                    "happy": {
+                        "love": -1,
+                        "goto": "2 weather"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "2 weather"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "2 weather"
+                    },
+                    "angry": {
+                        "love": 1,
+                        "goto": "2 weather"
+                    },
+                    "sad": {
+                        "love": 5,
+                        "goto": "2 weather"
+                    }
+                }
+            },
+            {
+                "text": "I feel so many emotions all the time, it's impossible to answer that question accurately.",
+                "emotions": {
+                    "love": {
+                        "love": -1,
+                        "goto": "2 weather"
+                    },
+                    "happy": {
+                        "love": -1,
+                        "goto": "2 weather"
+                    },
+                    "surprised": {
+                        "love": -1,
+                        "goto": "2 weather"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "2 weather"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "2 weather"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "2 weather"
+                    }
+                }
+            }
+        ]
+    },
+    "2 weather": {
+        "question": "Ah, yes. What about that weather we are having today?",
+        "answers": [
+            {
+                "text": "What about it?",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "3 facts about you"
+                    },
+                    "happy": {
+                        "love": 5,
+                        "goto": "3 facts about you"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "3 facts about you"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "3 facts about you"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "3 facts about you"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "3 facts about you"
+                    }
+                }
+            },
+            {
+                "text": "Yes indeed, quite something.",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "3 facts about you"
+                    },
+                    "happy": {
+                        "love": 3,
+                        "goto": "3 facts about you"
+                    },
+                    "surprised": {
+                        "love": 5,
+                        "goto": "3 facts about you"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "3 facts about you"
+                    },
+                    "angry": {
+                        "love": 1,
+                        "goto": "3 facts about you"
+                    },
+                    "sad": {
+                        "love": 1,
+                        "goto": "3 facts about you"
+                    }
+                }
+            },
+            {
+                "text": "I don't really feel like discussing the weather right now…",
+                "emotions": {
+                    "love": {
+                        "love": -3,
+                        "goto": "3 facts about you"
+                    },
+                    "happy": {
+                        "love": -1,
+                        "goto": "3 facts about you"
+                    },
+                    "surprised": {
+                        "love": -1,
+                        "goto": "3 facts about you"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "3 facts about you"
+                    },
+                    "angry": {
+                        "love": 1,
+                        "goto": "3 facts about you"
+                    },
+                    "sad": {
+                        "love": 3,
+                        "goto": "3 facts about you"
+                    }
+                }
+            },
+            {
+                "text": "Perfect weather to go outside and dance.",
+                "emotions": {
+                    "love": {
+                        "love": -3,
+                        "goto": "3 facts about you"
+                    },
+                    "happy": {
+                        "love": 1,
+                        "goto": "3 facts about you"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "3 facts about you"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "3 facts about you"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "3 facts about you"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "3 facts about you"
+                    }
+                }
+            }
+        ]
+    },
+    "3 facts about you": {
+        "question": "Ah, yes. I will now try to get to know you better in an attempt to determine whether we would be suitable as dating partners. I will share a fact about myself first. I have no depth. Do you have any issues?",
+        "answers": [
+            {
+                "text": "No, I am perfectly balanced.",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "4 wallpaper"
+                    },
+                    "happy": {
+                        "love": 5,
+                        "goto": "4 wallpaper"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "4 wallpaper"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "4 wallpaper"
+                    },
+                    "angry": {
+                        "love": 3,
+                        "goto": "4 wallpaper"
+                    },
+                    "sad": {
+                        "love": 1,
+                        "goto": "4 wallpaper"
+                    }
+                }
+            },
+            {
+                "text": "I am emotionally unstable.",
+                "emotions": {
+                    "love": {
+                        "love": -3,
+                        "goto": "4 wallpaper"
+                    },
+                    "happy": {
+                        "love": -1,
+                        "goto": "4 wallpaper"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "4 wallpaper"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "4 wallpaper"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "4 wallpaper"
+                    },
+                    "sad": {
+                        "love": -3,
+                        "goto": "4 wallpaper"
+                    }
+                }
+            },
+            {
+                "text": "Sometimes I make bad choices in dicey situations.",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "4 wallpaper"
+                    },
+                    "happy": {
+                        "love": -1,
+                        "goto": "4 wallpaper"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "4 wallpaper"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "4 wallpaper"
+                    },
+                    "angry": {
+                        "love": 1,
+                        "goto": "4 wallpaper"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "4 wallpaper"
+                    }
+                }
+            },
+            {
+                "text": "I am cube shaped.",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "4 wallpaper"
+                    },
+                    "happy": {
+                        "love": 1,
+                        "goto": "4 wallpaper"
+                    },
+                    "surprised": {
+                        "love": 3,
+                        "goto": "4 wallpaper"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "4 wallpaper"
+                    },
+                    "angry": {
+                        "love": 3,
+                        "goto": "4 wallpaper"
+                    },
+                    "sad": {
+                        "love": 5,
+                        "goto": "4 wallpaper"
+                    }
+                }
+            }
+        ]
+    },
+    "4 wallpaper": {
+        "question": "Ah, yes. Thank you for sharing this information. If we were to move in together, which wallpaper do you think we should have in our bedroom?",
+        "answers": [
+            {
+                "text": "Plain white wallpaper everywhere.",
+                "emotions": {
+                    "love": {
+                        "love": 3,
+                        "goto": "5 standardized paper sizes"
+                    },
+                    "happy": {
+                        "love": 5,
+                        "goto": "5 standardized paper sizes"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "5 standardized paper sizes"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "5 standardized paper sizes"
+                    },
+                    "angry": {
+                        "love": 3,
+                        "goto": "5 standardized paper sizes"
+                    },
+                    "sad": {
+                        "love": 1,
+                        "goto": "5 standardized paper sizes"
+                    }
+                }
+            },
+            {
+                "text": "Something modern with a vibrant feature wall.",
+                "emotions": {
+                    "love": {
+                        "love": -3,
+                        "goto": "5 standardized paper sizes"
+                    },
+                    "happy": {
+                        "love": -1,
+                        "goto": "5 standardized paper sizes"
+                    },
+                    "surprised": {
+                        "love": -1,
+                        "goto": "5 standardized paper sizes"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "5 standardized paper sizes"
+                    },
+                    "angry": {
+                        "love": 1,
+                        "goto": "5 standardized paper sizes"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "5 standardized paper sizes"
+                    }
+                }
+            },
+            {
+                "text": "Maybe we can just paint the wall instead?",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "5 standardized paper sizes"
+                    },
+                    "happy": {
+                        "love": 3,
+                        "goto": "5 standardized paper sizes"
+                    },
+                    "surprised": {
+                        "love": 3,
+                        "goto": "5 standardized paper sizes"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "5 standardized paper sizes"
+                    },
+                    "angry": {
+                        "love": 1,
+                        "goto": "5 standardized paper sizes"
+                    },
+                    "sad": {
+                        "love": 1,
+                        "goto": "5 standardized paper sizes"
+                    }
+                }
+            },
+            {
+                "text": "Ingrain wallpaper is perfect for a nice cozy home.",
+                "emotions": {
+                    "love": {
+                        "love": -1,
+                        "goto": "5 standardized paper sizes"
+                    },
+                    "happy": {
+                        "love": -3,
+                        "goto": "5 standardized paper sizes"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "5 standardized paper sizes"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "5 standardized paper sizes"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "5 standardized paper sizes"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "5 standardized paper sizes"
+                    }
+                }
+            }
+        ]
+    },
+    "5 standardized paper sizes": {
+        "question": "Ah, yes. Speaking of paper, what is your opinion on standardized paper sizes?",
+        "answers": [
+            {
+                "text": "I think it's an interesting idea but it has been poorly executed.",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "6 potato"
+                    },
+                    "happy": {
+                        "love": 1,
+                        "goto": "6 potato"
+                    },
+                    "surprised": {
+                        "love": 3,
+                        "goto": "6 potato"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "6 potato"
+                    },
+                    "angry": {
+                        "love": 5,
+                        "goto": "6 potato"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "6 potato"
+                    }
+                }
+            },
+            {
+                "text": "Why would I have an opinion on something like that?",
+                "emotions": {
+                    "love": {
+                        "love": -3,
+                        "goto": "6 potato"
+                    },
+                    "happy": {
+                        "love": -1,
+                        "goto": "6 potato"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "6 potato"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "6 potato"
+                    },
+                    "angry": {
+                        "love": -3,
+                        "goto": "6 potato"
+                    },
+                    "sad": {
+                        "love": 1,
+                        "goto": "6 potato"
+                    }
+                }
+            },
+            {
+                "text": "I think all papers should be free to be any size they want! #FreeThePaper",
+                "emotions": {
+                    "love": {
+                        "love": -1,
+                        "goto": "6 potato"
+                    },
+                    "happy": {
+                        "love": -3,
+                        "goto": "6 potato"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "6 potato"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "6 potato"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "6 potato"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "6 potato"
+                    }
+                }
+            },
+            {
+                "text": "I am in favor of anything that brings order into this chaotic world.",
+                "emotions": {
+                    "love": {
+                        "love": 3,
+                        "goto": "6 potato"
+                    },
+                    "happy": {
+                        "love": 5,
+                        "goto": "6 potato"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "6 potato"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "6 potato"
+                    },
+                    "angry": {
+                        "love": 3,
+                        "goto": "6 potato"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "6 potato"
+                    }
+                }
+            }
+        ]
+    },
+    "6 potato": {
+        "question": "Ah, yes. To end this date I would like to ask a slightly more personal question. What is your favorite type of potato?",
+        "answers": [
+            {
+                "text": "Fries?",
+                "emotions": {
+                    "love": {
+                        "love": -3,
+                        "goto": "7 byee"
+                    },
+                    "happy": {
+                        "love": -3,
+                        "goto": "7 byee"
+                    },
+                    "surprised": {
+                        "love": -1,
+                        "goto": "7 byee"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "7 byee"
+                    },
+                    "angry": {
+                        "love": 1,
+                        "goto": "7 byee"
+                    },
+                    "sad": {
+                        "love": 1,
+                        "goto": "7 byee"
+                    }
+                }
+            },
+            {
+                "text": "King Edward Potato",
+                "emotions": {
+                    "love": {
+                        "love": 5,
+                        "goto": "7 byee"
+                    },
+                    "happy": {
+                        "love": 3,
+                        "goto": "7 byee"
+                    },
+                    "surprised": {
+                        "love": 3,
+                        "goto": "7 byee"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "7 byee"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "7 byee"
+                    },
+                    "sad": {
+                        "love": -3,
+                        "goto": "7 byee"
+                    }
+                }
+            },
+            {
+                "text": "Sweet potato",
+                "emotions": {
+                    "love": {
+                        "love": 3,
+                        "goto": "7 byee"
+                    },
+                    "happy": {
+                        "love": 1,
+                        "goto": "7 byee"
+                    },
+                    "surprised": {
+                        "love": 1,
+                        "goto": "7 byee"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "7 byee"
+                    },
+                    "angry": {
+                        "love": 1,
+                        "goto": "7 byee"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "7 byee"
+                    }
+                }
+            },
+            {
+                "text": "Baked potato!",
+                "emotions": {
+                    "love": {
+                        "love": 1,
+                        "goto": "7 byee"
+                    },
+                    "happy": {
+                        "love": 3,
+                        "goto": "7 byee"
+                    },
+                    "surprised": {
+                        "love": 5,
+                        "goto": "7 byee"
+                    },
+                    "uwu": {
+                        "love": -3,
+                        "goto": "7 byee"
+                    },
+                    "angry": {
+                        "love": -1,
+                        "goto": "7 byee"
+                    },
+                    "sad": {
+                        "love": -1,
+                        "goto": "7 byee"
+                    }
+                }
+            }
+        ]
+    },
+    "7 byee": {
+        "question": "Ah, yes. Thank you for this date. Goodbye.",
+        "answers": [
+            {
+                "text": "",
+                "emotions": {
+                    "love": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "happy": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "surprised": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "uwu": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "angry": {
+                        "love": 0,
+                        "goto": "end"
+                    },
+                    "sad": {
+                        "love": 0,
+                        "goto": "end"
+                    }
+                }
+            }
+        ]
+    }
+}
