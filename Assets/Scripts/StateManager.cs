@@ -12,6 +12,7 @@ public class StateManager : MonoBehaviour
     public JSONNode sceneJson;
 
     public int love;
+    public int lastLoveChange;
     public string currentNode;
 
     public RollScript rollScript;
